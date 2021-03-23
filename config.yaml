@@ -1,0 +1,25 @@
+# Text shown on the index page.
+index_title: I Can't Believe It's Not a Cookbook!
+index_description:
+  Po-tay-toes. Boil 'em, mash 'em, stick 'em in a stew. Lovely big golden chips
+  with a nice piece of fried fish. Even you couldn't say no to that. My mom
+  always said life was like a box of chocolates. *You never know what you're
+  gonna get.*
+
+# You can change the content language (really only relevant for hyphenation)
+# and related textual labels here.
+lang: en
+strings:
+  search_placeholder: Search...
+  uncategorized_label: Uncategorized
+  source_label: Source
+  spicy_label: Spicy
+  vegan_label: Vegan
+  meat_label: Meat
+  footer_text: Enjoy!
+
+# Remote for deployment – the value of this setting will be passed to rsync as a
+# destination, so you probably want it to look like USER@SERVER:PATH. Make sure
+# it's correct – the path in particular – since otherwise stuff that shouldn't
+# be deleted or overwritten might indeed be deleted or overwritten!
+deploy_remote:
