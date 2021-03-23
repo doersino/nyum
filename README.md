@@ -13,9 +13,9 @@ Below the screenshots, you'll find some notes on [setting this tool up](#setup),
 
 ## Screenshots
 
-If you prefer a live website over the following screenshots, feel free to **check out the [demo on GitHub Pages](https://doersino.github.io/nyum/)**!
+If you prefer a live website over the following screenshots, feel free to **check out the [demo on GitHub Pages](https://doersino.github.io/nyum/_site/)**!
 
-On an old-fashioned computer, a [recipe](https://doersino.github.io/nyum/cheesebuldak.html) might look more or less like this – notice the little star indicating that this is a favorite!
+On an old-fashioned computer, a [recipe](https://doersino.github.io/nyum/_site/cheesebuldak.html) might look more or less like this – notice the little star indicating that this is a favorite!
 
 ![](_assets/readme-images/1-laptop.jpg)
 
