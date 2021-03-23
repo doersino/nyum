@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+<head>
+    ${head.partial.html()}
+    <title>$title$ – nyum</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="name">
+                <nav>
+                    <a href="index.html"><img class="logo" src="assets/logo.svg"></a>
+                    <i>⟩</i>
+                    $if(category)$$category$ <i>⟩</i>$endif$
+                </nav>
+                <h1><span>$title$$if(favorite)$<sup>★</sup>$endif$</span> $if(original_title)$<em>$original_title$</em>$endif$</h1>
+            </div>
+            <ul>
+                $if(size)$
+                <li><img src="assets/tabler-icons/tabler-icon-tools-kitchen-2.svg"> $size$</li>
+                $endif$
+                $if(time)$
+                <li><img src="assets/tabler-icons/tabler-icon-clock.svg"> $time$</li>
+                $endif$
+                $if(author)$
+                    <li>
+                        $if(source)$
+                            <a href="$source$"><img src="assets/tabler-icons/tabler-icon-link.svg"> $author$</a>
+                        $else$
+                        <img src="assets/tabler-icons/tabler-icon-user.svg"> $author$
+                        $endif$
+                    </li>
+                $elseif(url)$
+                    <li><a href="$url$"><img src="assets/tabler-icons/tabler-icon-link.svg"> $strings.source_label$</a></li>
+                $endif$
+                $if(spicy)$
+                    <li><img src="assets/tabler-icons/tabler-icon-flame.svg"> $strings.spicy_label$</li>
+                $endif$
+                $if(veggie)$$else$
+                    $if(vegan)$$else$
+                        <li><img src="assets/tabler-icons/tabler-icon-bone.svg"> $strings.meat_label$</li>
+                    $endif$
+                $endif$
+                $if(vegan)$
+                    <li><img src="assets/tabler-icons/tabler-icon-leaf.svg"> $strings.vegan_label$</li>
+                $endif$
+            </ul>
+            $if(description)$
+                <p>$description$</p>
+            $endif$
+        </header>
+        $if(image)$
+            <img src="$image$" class="servingsuggestion">
+        $endif$
+        <section>
+            <hr>
+            $body$
+        </section>
+        ${footer.partial.html()}
+    </main>
+</body>
+</html>

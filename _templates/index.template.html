@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+<head>
+    ${head.partial.html()}
+    <title>$index_title$ – nyum</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="name">
+                <nav>
+                    <a href="index.html"><img class="logo" src="assets/logo.svg"></a>
+                    <i>⟩</i>
+                </nav>
+                <h1><span>$index_title$</span></h1>
+            </div>
+            $if(index_description)$
+                <p>$index_description$</p>
+            $endif$
+            <aside class="search">
+                <input type="text" placeholder="$strings.search_placeholder$" id="search_input" disabled>
+                <input type="submit" style="display: none">
+                <div class="results" id="search_output"></div>
+                <script src="assets/search.js"></script>
+            </aside>
+        </header>
+        ${for(categories)}
+            <section>
+                <h2>${it.category} <!--${it.recipes/length}--></h2>
+                ${for(it.recipes)}
+                    <h3>
+                        <span class="icons">
+                            $if(it.favorite)$<img src="assets/tabler-icons/tabler-icon-star.svg">$endif$
+                            $if(it.spicy)$<img src="assets/tabler-icons/tabler-icon-flame.svg">$endif$
+                            $if(it.veggie)$$else$$if(it.vegan)$$else$<img src="assets/tabler-icons/tabler-icon-bone.svg">$endif$$endif$
+                            $if(it.vegan)$<img src="assets/tabler-icons/tabler-icon-leaf.svg">$endif$
+                        </span>
+                        <a href="${it.htmlfile}">${it.title}</a>
+                        $if(it.original_title)$<em>$it.original_title$</em>$endif$
+                    </h3>
+                    $if(it.description)$
+                        <p>$it.description$</p>
+                    $endif$
+                ${endfor}
+            </section>
+        ${endfor}
+        ${footer.partial.html()}
+    </main>
+</body>
+</html>
