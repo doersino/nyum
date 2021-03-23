@@ -8,7 +8,7 @@ This tool takes a **collection of Markdown-formatted recipes** and turns it into
 
 📓 Think of it as a **cookbook for nerds**.
 
-Below the screenshots, you'll find some notes on [setting this tool up](#setup), [running it](#building), [formatting your recipes](formatting), and [deploying the generated site](#deployment).
+Below the screenshots, you'll find some notes on [setting this tool up](#setup), [running it](#building), [formatting your recipes](#formatting), and [deploying the generated site](#deployment).
 
 
 ## Screenshots
