@@ -32,6 +32,8 @@ Finally, more of the same on three phone-sized screens. The three-column layout 
 
 ### Setup
 
+First off, either `git clone` this repository or [download it as a ZIP](https://github.com/doersino/nyum/archive/refs/heads/main.zip). (You can clear out the `_recipes/` and `_site/` directories to get rid of the demo data.)
+
 I don't like complicated dependency trees and poorly-documented build processes, so here's an **exhaustive list of the dependencies** you're not overwhelmingly likely to already have:
 
 * [Pandoc](https://pandoc.org) – any version released in the last few years will probably work.
