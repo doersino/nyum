@@ -38,14 +38,16 @@ I don't like complicated dependency trees and poorly-documented build processes,
 
 * [Pandoc](https://pandoc.org) – any version released in the last few years will probably work.
 
-    On macOS, assuming you're using [Homebrew](https://brew.sh), `brew install pandoc` will do the trick. On Linux, your package manager almost certainly has it. As for Windows – I haven't used it in a decade, so you're on your own.
+    On macOS, assuming you're using [Homebrew](https://brew.sh), `brew install pandoc` will do the trick. On Linux, your package manager almost certainly has it. As for Windows: I haven't used it in a decade, so you're on your own.
+
+That's it, only one dependency! Hooray!
 
 (Since `build.sh` relies on some Bash-specific bits and bobs, you'll also need that – but since it's the default shell on most systems, you're likely running it already.)
 
 
 ### Configuration
 
-Open `config.yaml` in whichever text editor you heart is drawn to in the moment and follow the instructions in the comments. (There's not actually very much to configure.)
+Open `config.yaml` in whichever text editor you heart is drawn to in the moment and follow the instructions in the comments. There's not actually very much to configure.
 
 
 ### Building
@@ -63,7 +65,7 @@ TL;DR: See the example recipes in `_recipes/`.
 
 Each recipe **begins with YAML front matter specifying its title**, how many servings it produces, whether it's spicy or vegan or a favorite, the category, an image (which must also be located in the `_recipes/` directory), and other information. Most of these are optional!
 
-The **body of a recipe consists of horizontal-rule-separated steps, each listing ingredients relevant in that step along with the associated instruction**. Ingredients are specified as an unordered list, with ingredient amounts enclosed in backticks (this enables the two columns on the resulting website). The instructions must be preceded with a `>`. Note that a step can also solely consist of an instruction.
+The **body of a recipe consists of horizontal-rule-separated steps, each listing ingredients relevant in that step along with the associated instruction**. Ingredients are specified as an unordered list, with ingredient amounts enclosed in backticks (this enables the columns on the resulting website). The instructions must be preceded with a `>`. Note that a step can also solely consist of an instruction.
 
 *You've got the full power of Markdown at your disposal – douse your recipes in formatting, include a picture for each step, and use the garlic emoji as liberally as you should be using garlic in your cooking!*
 
@@ -201,7 +203,7 @@ However, the subdirectories `_assets/fonts/` and `_assets/tabler-icons` contain 
 * [**Lora**](https://github.com/cyrealtype/Lora-Cyrillic), the serif typeface used in places where Barlow isn't, is also licensed under the *SIL Open Font License Version 1.1*, see `_assets/fonts/lora/OFL.txt`.
 * The icons (despite having been modified slightly) are part of [**Tabler Icons**](https://tabler-icons.io), they're licensed under the *MIT License*, see `_assets/tabler-icons/LICENSE.txt`.
 
-Finally, some **shoutouts** that aren't *really* licensing-related, but fit in here well:
+Finally, some **shoutouts** that aren't *really* licensing-related, but fit better here than anywhere else in this document:
 
 * The device mockups used to spice up the screenshots in this document are from [Facebook Design](https://design.facebook.com/toolsandresources/devices/).
 * Because you're dying to know this, let me tell you that the screenshots' background image is based on a [Google Maps screenshot of a lithium mining operation in China](https://twitter.com/doersino/status/1324367617763676160).
