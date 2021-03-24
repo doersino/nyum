@@ -37,7 +37,7 @@ function x {
 status "Reading remote configuration..."
 x pandoc _templates/technical/empty.md --metadata title="dummy" --metadata-file config.yaml --template _templates/technical/deploy_remote.template.txt -t html -o _temp/deploy_remote.txt
 REMOTE="$(cat _temp/deploy_remote.txt)"
-if [ -z "$REMOTE"]; then
+if [ -z "$REMOTE" ]; then
     status "Can't deploy – it seems like you haven't specified a remote."
     exit 1
 fi
