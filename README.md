@@ -4,7 +4,7 @@
 
 <img src="_assets/favicon.png" align="right" width="96">
 
-This tool takes a **collection of Markdown-formatted recipes** and turns it into a **lightweight, responsive, searchable website** for your personal reference. It's not intended for use as a cooking blog – there's no RSS feed, no social sharing buttons, and absolutely zero SEO.
+This tool takes a **collection of Markdown-formatted recipes** and turns it into a **lightweight, responsive, searchable website** for your personal use as a reference while cooking, or for sharing with family and friends. It's *not* intended as a cooking blog framework – there's no RSS feed, no social sharing buttons, and absolutely zero SEO.
 
 📓 Think of it as a **cookbook for nerds**.
 
