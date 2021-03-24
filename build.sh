@@ -97,7 +97,7 @@ for CATEGORY in $(echo "$CATS" | cut -d§ -f2- | sort | uniq | (cat -; echo "$UN
         for C in $(echo "$CATS"); do
             C_CAT=$(echo "$C" | cut -d§ -f2-)
             if [[ -z "$C_CAT" ]]; then
-                (( COUNT++ ))
+                (( COUNT+=1 ))
             fi
         done
         if (( $COUNT == 0 )); then
