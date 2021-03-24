@@ -93,16 +93,14 @@ CATS="$(cat _temp/*.category.txt)"
                                                               # hacky hack to add uncat to the list
 for CATEGORY in $(echo "$CATS" | cut -d§ -f2- | sort | uniq | (cat -; echo "$UNCATEGORIZED_LABEL")); do
     if [[ "$UNCATEGORIZED_LABEL" == "$CATEGORY" ]]; then
-        COUNT=0
+        NO_UNCATEGORIZED=true
         for C in $(echo "$CATS"); do
             C_CAT=$(echo "$C" | cut -d§ -f2-)
             if [[ -z "$C_CAT" ]]; then
-                (( COUNT+=1 ))
+                NO_UNCATEGORIZED=false
             fi
         done
-        if (( $COUNT == 0 )); then
-            continue  # hide the empty uncategorized category
-        fi
+        $NO_UNCATEGORIZED && continue  # hide the empty uncategorized category
     fi
     printf "$SEPARATOR_OUTER" >> _temp/index.json
     x printf "{\"category\": \"$CATEGORY\", \"recipes\": [" >> _temp/index.json
