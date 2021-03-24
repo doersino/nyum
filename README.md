@@ -65,7 +65,7 @@ TL;DR: See the example recipes in `_recipes/`.
 
 Each recipe **begins with YAML front matter specifying its title**, how many servings it produces, whether it's spicy or vegan or a favorite, the category, an image (which must also be located in the `_recipes/` directory), and other information. Most of these are optional!
 
-The **body of a recipe consists of horizontal-rule-separated steps, each listing ingredients relevant in that step along with the associated instruction**. Ingredients are specified as an unordered list, with ingredient amounts enclosed in backticks (this enables the columns on the resulting website). The instructions must be preceded with a `>`. Note that a step can also solely consist of an instruction.
+The **body of a recipe consists of horizontal-rule-separated steps, each listing ingredients relevant in that step along with the associated instruction**. Ingredients are specified as an unordered list, with ingredient amounts enclosed in backticks (this enables the columns on the resulting website – if you don't care about that, omit the backticks). The instructions must be preceded with a `>`. Note that a step can also solely consist of an instruction.
 
 *You've got the full power of Markdown at your disposal – douse your recipes in formatting, include a picture for each step, and use the garlic emoji as liberally as you should be using garlic in your cooking!*
 
@@ -191,6 +191,11 @@ I think you might be alluding to Hundred Rabbits' [Grimgrains](https://github.co
 ### What's the dish in the background of `_assets/favicon.png`?
 
 That's the supremely tasty and [even more Instagram-worthy](https://www.instagram.com/p/B6vQOHDiySF/) "Half-Half Curry" served at [Monami Curry, Yongsan-gu, Seoul](https://www.google.com/maps/place/Monami+Curry+Seoul/@37.5298686,126.9707568,15z/data=!4m5!3m4!1s0x0:0x6ce40a80f13a74d5!8m2!3d37.5298686!4d126.9707568).
+
+
+### And what's with the name?
+
+"Nyum" is an onomatopoeia used to describe the noise made when eating. Like, "nom!", "yummy!".
 
 
 ## License
