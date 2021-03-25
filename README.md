@@ -36,9 +36,9 @@ First off, either `git clone` this repository or [download it as a ZIP](https://
 
 I don't like complicated dependency trees and poorly-documented build processes, so here's an **exhaustive list of the dependencies** you're not overwhelmingly likely to already have:
 
-* [Pandoc](https://pandoc.org) – any version released in the last few years will probably work.
+* [Pandoc](https://pandoc.org) – version 2.8 (released in November 2019) or later.
 
-    On macOS, assuming you're using [Homebrew](https://brew.sh), `brew install pandoc` will do the trick. On Linux, your package manager almost certainly has it. As for Windows: I haven't used it in a decade, so you're on your own.
+    On macOS, assuming you're using [Homebrew](https://brew.sh), `brew install pandoc` will do the trick. On Linux, your package manager almost certainly has it (although the version it provides might be outdated – recent binaries are available [here](https://github.com/jgm/pandoc/releases/latest)). As for Windows: I haven't used it in a decade, so [you're on your own](https://pandoc.org/installing.html).
 
 That's it, only one dependency! Hooray!
 
