@@ -62,7 +62,7 @@ status "Building recipe pages..."
 for FILE in _recipes/*.md; do
     x pandoc "$FILE" \
         --metadata-file config.yaml \
-        --metadata buildtime="$(date "+%Y-%m-%d")" \
+        --metadata updatedtime="$(date -r "$FILE" "+%Y-%m-%d")" \
         --template _templates/recipe.template.html \
         -o "_site/$(basename "$FILE" .md).html"
 done
@@ -127,7 +127,7 @@ status "Building index page..."
 x pandoc _templates/technical/empty.md \
     --metadata-file config.yaml \
     --metadata title="dummy" \
-    --metadata buildtime="$(date "+%Y-%m-%d")" \
+    --metadata updatedtime="$(date "+%Y-%m-%d")" \
     --metadata-file _temp/index.json \
     --template _templates/index.template.html \
     -o _site/index.html

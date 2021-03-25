@@ -322,7 +322,7 @@ footer {
     color: #bbb;
     margin: 2em 0;
 }
-footer .buildtime {
+footer .updatedtime {
     font-size: 0.6em;
     text-transform: uppercase;
     letter-spacing: 0.2em;
