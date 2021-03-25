@@ -91,11 +91,11 @@ x pandoc _templates/technical/empty.md --metadata title="dummy" --metadata-file 
 UNCATEGORIZED_LABEL="$(cat _temp/uncategorized_label.txt)"
 CATS="$(cat _temp/*.category.txt)"
                                                               # hacky hack to add uncat to the list
-for CATEGORY in $(echo "$CATS" | cut -d# -f2- | sort | uniq | (cat -; echo "$UNCATEGORIZED_LABEL")); do
+for CATEGORY in $(echo "$CATS" | cut -d" " -f2- | sort | uniq | (cat -; echo "$UNCATEGORIZED_LABEL")); do
     if [[ "$UNCATEGORIZED_LABEL" == "$CATEGORY" ]]; then
         NO_UNCATEGORIZED=true
         for C in $(echo "$CATS"); do
-            C_CAT=$(echo "$C" | cut -d# -f2-)
+            C_CAT=$(echo "$C" | cut -d" " -f2-)
             if [[ -z "$C_CAT" ]]; then
                 NO_UNCATEGORIZED=false
             fi
@@ -105,8 +105,8 @@ for CATEGORY in $(echo "$CATS" | cut -d# -f2- | sort | uniq | (cat -; echo "$UNC
     printf "$SEPARATOR_OUTER" >> _temp/index.json
     x printf "{\"category\": \"$CATEGORY\", \"recipes\": [" >> _temp/index.json
     for C in $(echo "$CATS"); do
-        BASENAME=$(echo "$C" | cut -d# -f1)
-        C_CAT=$(echo "$C" | cut -d# -f2-)
+        BASENAME=$(echo "$C" | cut -d" " -f1)
+        C_CAT=$(echo "$C" | cut -d" " -f2-)
         if [[ -z "$C_CAT" ]]; then
             C_CAT="$UNCATEGORIZED_LABEL"
         fi

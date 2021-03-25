@@ -1,1 +1,1 @@
-$basename$#$category$
+$basename$ $category$
