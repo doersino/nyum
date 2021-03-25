@@ -298,7 +298,7 @@ hr + ul li {
 hr + ul li > code:first-child {
     display: inline-block;
     margin-left: var(--ingredient-quantity-column-width);
-    margin-right: calc(-1 * var(--ingredient-quantity-column-width) - .3em);  /* to account for space between em and ingredient name */
+    margin-right: calc(-1 * var(--ingredient-quantity-column-width) - .2em);  /* to account for space between em and ingredient name */
     min-width: var(--ingredient-quantity-column-width);
 }
 code {
