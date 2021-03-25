@@ -17,6 +17,7 @@ strings:
   vegan_label: Vegan
   meat_label: Meat
   footer_text: Enjoy!
+  updated_on: Updated on
 
 # Remote for deployment – the value of this setting will be passed to rsync as a
 # destination, so you probably want it to look like USER@SERVER:PATH. Make sure
