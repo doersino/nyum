@@ -33,13 +33,13 @@
                 <h2>${it.category} <!--${it.recipes/length}--></h2>
                 ${for(it.recipes)}
                     <h3>
-                        <span class="icons">
+                        <i class="icons">
                             $if(it.favorite)$<img src="assets/tabler-icons/tabler-icon-star.svg">$endif$
                             $if(it.spicy)$<img src="assets/tabler-icons/tabler-icon-flame.svg">$endif$
                             $if(it.veggie)$$else$$if(it.vegan)$$else$<img src="assets/tabler-icons/tabler-icon-bone.svg">$endif$$endif$
                             $if(it.vegan)$<img src="assets/tabler-icons/tabler-icon-leaf.svg">$endif$
-                        </span>
-                        <a href="${it.htmlfile}">${it.title}</a>
+                        </i>
+                        <a href="${it.htmlfile}"><span>${it.title}</span></a>
                         $if(it.original_title)$<em>$it.original_title$</em>$endif$
                     </h3>
                     $if(it.description)$

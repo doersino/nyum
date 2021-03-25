@@ -75,7 +75,7 @@ h1 em {
     display: inline-block;
 }
 h1 span,
-h3 a {  /* separate original name after this a bit (but not if it's on another line) */
+h3 span {  /* separate original name after this a bit (but not if it's on another line) */
     padding-right: 0.4rem;
 }
 header ul {
@@ -167,6 +167,10 @@ header p {
     color: darkred;
     font-size: 0.64em;
 }
+.search .results a {
+    text-decoration: none;
+    color: inherit;
+}
 .search .results h3 {
     border-bottom: 1px solid #ddd;
     padding: 0.3rem 1rem 0.4rem;
@@ -174,9 +178,12 @@ header p {
     width: calc(100% - 0.5em);
     background-color: white;
 }
-.search .results h3:last-child {
+.search .results a:last-child h3 {
     border-radius: 0 0 0.2em 0.2em;
     border-bottom: none;
+}
+.search .results a.selected h3 {
+    background-color: #f8f8f8;
 }
 
 .servingsuggestion {
@@ -203,7 +210,7 @@ h2 {
     font-weight: normal;
 }
 h3 {
-    margin: 0.5rem 0 1rem;
+    margin: 0.5rem 0 1rem;  /* larger bottom margin to fix spacing if the last recipe in a category has no description */
     font-size: 1.3rem;
 }
 h3 a {
@@ -227,8 +234,11 @@ h3 .icons img {
     height: 1em;
 }
 h3 + p {
-    margin-top: -0.5rem;
+    margin-top: -0.5rem;  /* move the description a bit closer to the recipe's title */
     font-family: var(--serif);
+}
+h3 + h3 {
+    margin-top: -0.5rem;  /* in the same vein, move the recipe title below a description-less recipe a bit upwards */
 }
 
 ul, p {
