@@ -161,7 +161,7 @@ Building the search "index" works similarly, but without the need for any groupi
 Why, there are indeed! I'm 100% sure these could be remedied quite easily, but they don't interfere with my use case, so I didn't bother. If you run into any problems because of this, please [file an issue](https://github.com/doersino/nyum/issues) or cancel me on Twitter.
 
 * No spaces in filenames.
-* No section signs `§` in category names.
+* No section signs `#` in category names.
 * Things will probably break if `_recipes/` is empty (but then, there's not much to be done in that case, anyway).
 * You can't have a recipe with filename `index.md` – it'll be overwritten by the generated index page.
 * The value of `uncategorized_label` in `config.yaml` may not contain an odd number of double quotation marks `"`.
