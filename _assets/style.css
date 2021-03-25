@@ -203,7 +203,7 @@ h2 {
     font-weight: normal;
 }
 h3 {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 1rem;
     font-size: 1.3rem;
 }
 h3 a {
@@ -227,7 +227,7 @@ h3 .icons img {
     height: 1em;
 }
 h3 + p {
-    margin-top: 0.5rem;
+    margin-top: -0.5rem;
     font-family: var(--serif);
 }
 
