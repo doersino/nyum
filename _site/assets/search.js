@@ -97,7 +97,7 @@ function highlightSearchSelection() {
     }
 }
 
-// allow keyboard naviation of search results
+// enable keyboard naviation of search results
 searchInput.addEventListener('keydown', e => {
     if (e.key == "ArrowUp") {
         searchSelection = Math.max(-1, searchSelection - 1);
