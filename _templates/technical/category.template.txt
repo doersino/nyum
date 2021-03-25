@@ -1,1 +1,1 @@
-$basename$ $category$
+$basename$ $if(category)$$category$$else$$strings.uncategorized_label$$endif$

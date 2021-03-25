@@ -71,6 +71,7 @@ status "Extracting metadata..."
 for FILE in _recipes/*.md; do
     # set basename to avoid having to use $sourcefile$ which pandoc sets automatically but contains the relative path
     x pandoc "$FILE" \
+        --metadata-file config.yaml \
         --metadata basename="$(basename $FILE .md)" \
         --template _templates/technical/category.template.txt \
         -t html -o "_temp/$(basename "$FILE" .md).category.txt"
@@ -82,34 +83,19 @@ for FILE in _recipes/*.md; do
         -t html -o "_temp/$(basename $FILE .md).metadata.json"
 done
 
-status "Grouping metadata by category..."  # (yep, this is a right mess
+status "Grouping metadata by category..."  # (yep, this is a right mess)
 echo "{\"categories\": [" > _temp/index.json
 SEPARATOR_OUTER=""  # no comma before first list element (categories)
 SEPARATOR_INNER=""  # ditto (recipes per category)
 IFS=$'\n'           # tell for loop logic to split on newlines only, not spaces
-x pandoc _templates/technical/empty.md --metadata title="dummy" --metadata-file config.yaml --template _templates/technical/uncategorized_label.template.txt -t html -o _temp/uncategorized_label.txt
-UNCATEGORIZED_LABEL="$(cat _temp/uncategorized_label.txt)"
 CATS="$(cat _temp/*.category.txt)"
-                                                              # hacky hack to add uncat to the list
-for CATEGORY in $(echo "$CATS" | cut -d" " -f2- | sort | uniq | (cat -; echo "$UNCATEGORIZED_LABEL")); do
-    if [[ "$UNCATEGORIZED_LABEL" == "$CATEGORY" ]]; then
-        NO_UNCATEGORIZED=true
-        for C in $(echo "$CATS"); do
-            C_CAT=$(echo "$C" | cut -d" " -f2-)
-            if [[ -z "$C_CAT" ]]; then
-                NO_UNCATEGORIZED=false
-            fi
-        done
-        $NO_UNCATEGORIZED && continue  # hide the empty uncategorized category
-    fi
+echo $CATS
+for CATEGORY in $(echo "$CATS" | cut -d" " -f2- | sort | uniq); do
     printf "$SEPARATOR_OUTER" >> _temp/index.json
     x printf "{\"category\": \"$CATEGORY\", \"recipes\": [" >> _temp/index.json
     for C in $(echo "$CATS"); do
         BASENAME=$(echo "$C" | cut -d" " -f1)
         C_CAT=$(echo "$C" | cut -d" " -f2-)
-        if [[ -z "$C_CAT" ]]; then
-            C_CAT="$UNCATEGORIZED_LABEL"
-        fi
         if [[ "$C_CAT" == "$CATEGORY" ]]; then
             printf "$SEPARATOR_INNER" >> _temp/index.json
             x cat "_temp/$BASENAME.metadata.json" >> _temp/index.json

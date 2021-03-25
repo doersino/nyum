@@ -147,11 +147,11 @@ Each recipe has a set of metadata (specified using YAML, but that's not relevant
 This led me down the path of...
 
 1. Writing the metadata of each recipe to a JSON file in `_temp/` by feeding them into Pandoc and using a template solely consisting of `$meta-json$`.
-2. Writing the paths of each metadata files, along with the associated category, to a separate file in `temp/` using a similar minimal template.
+2. Writing the paths of each metadata file, along with the associated category, to a separate file in `temp/` using a similar minimal template.
 3. Employing a `cut`-`sort`-`uniq` pipeline to distill a list of unique categories.
 4. Using a good ol' bespoke nested-loops join for grouping, *i.e.*, iterating through the list of categories and for each category, writing its name to the output JSON file before iterating though the list of paths-and-categories from step 2 to figure-out-the-path-of-and-collect the recipe metadata belonging to the current category.
 
-The final implementation is a bit more complicated than this pseudocode – largely because I, for some reason and despite knowing better, decided to "gracefully" deal with uncategorized recipes.
+The final implementation is a bit more complicated than this pseudocode – largely because of string munging overhead.
 
 Building the search "index" works similarly, but without the need for any grouping shenanigans.
 
