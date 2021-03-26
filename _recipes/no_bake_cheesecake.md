@@ -4,6 +4,7 @@ description: No bake cheesecake
 size: 6-8 servings
 time: 45 minutes
 source: https://sallysbakingaddiction.com/no-bake-cheesecake/
+dessert: ✓
 ---
 
 # Crust

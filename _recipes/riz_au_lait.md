@@ -4,14 +4,15 @@ description: Un riz au lait (avec banane caramélisée)
 size: 4 servings
 time: 45 minutes
 source: https://www.youtube.com/watch?v=czPV8PpyqvM
+dessert: ✓
 ---
 
-* `220 g` riz arborio (pour risotto)
+* `220 g` riz arborio
 * `125 g` sucre
 * `1 L` lait entier
 * `120 g` crème épaisse
 * `1` Bâton de cannelle
-* Extrait de vanille
+* ` ` Extrait de vanille
 
 
 ---
@@ -24,6 +25,9 @@ source: https://www.youtube.com/watch?v=czPV8PpyqvM
 
 ---
 
-Banane caramélisée
+* `½` banane / personne
+* `? g` sucre
+
+> **Banane caramélisée**
 
 > Wesh démerde toi c'est du sucre et des bananes

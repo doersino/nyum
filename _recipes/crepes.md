@@ -3,6 +3,7 @@ title: Crepes
 description: Pâte à crêpes basique
 size: 4 servings
 time: 15 minutes
+dessert: ✓
 ---
 
 * `3` oeufs
