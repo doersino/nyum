@@ -14,13 +14,10 @@ dessert: ✓
 * `1` Bâton de cannelle
 * ` ` Extrait de vanille
 
-
----
-
-> riz + sucre + lait + crème + cannelle + vanille dans une casserolle. 
-
----
-
+> **Riz au lait**
+>
+> Verser riz + sucre + lait + crème + cannelle + vanille dans une casserolle.
+>
 > Dès que ça commence à bouillir, descendre à feu doux jusqu'à ce que ce soit cuit.
 
 ---
