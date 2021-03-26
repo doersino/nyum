@@ -8,17 +8,17 @@ index_description:
 
 # You can change the content language (really only relevant for hyphenation)
 # and related textual labels here.
-lang: en
+lang: fr
 strings:
-  search_placeholder: Search...
-  uncategorized_label: Uncategorized
+  search_placeholder: Qu'est-ce qu'on mange ce soir...
+  uncategorized_label: Non catégorisé
   source_label: Source
-  spicy_label: Spicy
+  spicy_label: Épicé
   vegan_label: Vegan
-  meat_label: Meat
+  meat_label: Viande
   dessert_label: Dessert
   footer_text: Enjoy!
-  updated_on: Updated on
+  updated_on: Mis à jour le
 
 # Remote for deployment – the value of this setting will be passed to rsync as a
 # destination, so you probably want it to look like USER@SERVER:PATH. Make sure
