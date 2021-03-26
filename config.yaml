@@ -16,6 +16,7 @@ strings:
   spicy_label: Spicy
   vegan_label: Vegan
   meat_label: Meat
+  dessert_label: Dessert
   footer_text: Enjoy!
   updated_on: Updated on
 

@@ -68,6 +68,7 @@ function showResults(results) {
             + `<i class="icons">`
             + (e.favorite ? `<img src="assets/tabler-icons/tabler-icon-star.svg"> ` : ``)
             + (e.spicy ? `<img src="assets/tabler-icons/tabler-icon-flame.svg"> ` : ``)
+            + (e.dessert ? `<img src="assets/tabler-icons/tabler-icon-dessert.svg"> ` : ``)
             + ((e.veggie || e.vegan) ? `` : `<img src="assets/tabler-icons/tabler-icon-bone.svg"> `)
             + (e.vegan ? `<img src="assets/tabler-icons/tabler-icon-leaf.svg"> ` : ``)
             + `</i>`
