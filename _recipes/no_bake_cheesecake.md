@@ -7,18 +7,15 @@ source: https://sallysbakingaddiction.com/no-bake-cheesecake/
 dessert: ✓
 ---
 
-# Crust
-
 * `200 g` graham cracker
 * `67 g` sucre roux
-* `115 g` beurre
-    * C'est possible de mettre moins
+* `115 g` beurre (à diminuer)
 
+> **Croûte**
+>
 > Émietter les biscuits et tout mélanger.
 
 ---
-
-# Cheesecake
 
 * `300 ml` crème épaisse
 * `680 g` cream cheese
@@ -26,16 +23,12 @@ dessert: ✓
 * `60 g` crème fraiche
 * extrait de vanille
 
+> **Cheesecake**
+>
 > Faire monter la crème épaisse
-
----
-
+>
 > Mixer la cream cheese et le sucre. Ajouter la crème fraiche et la vanille, mixer encore.
-
----
-
+>
 > "Fold" la crème épaisse dans le mix de cream cheese.
-
----
-
+>
 > Laisser tout au frigo au moins toute la nuit.
