@@ -126,6 +126,16 @@ For my own convenience, I've written `deploy.sh`, which reads a remote target of
 * Run `bash deploy.sh --help` to learn about another very exciting flag!
 
 
+### Updating
+
+As bugs are fixed and features added (not that I expect much of either), you might wish to update your instance. Instead of adherence to versioning best-practices or even a semblance of an update scheme, here's instructions on how to perform a manual update:
+
+1. Replace `_assets/`, `_templates/`, `build.sh`, and `deploy.sh` of your instance with what's currently available in this repository.
+2. Check if any new knobs and toggles have been added to `config.yaml` and adapt them into your `config.yaml`.
+
+That should do it! (Perhaps build your site and inspect it to verify that nothing has broken – feel free to [file an issue](https://github.com/doersino/nyum/issues) if something has.)
+
+
 ## FAQ
 
 (As in "𝓕ound, by me, to be likely-to-be-𝓐sked 𝓠uestions, the reason being that I asked these questions to myself during construction of this thing".)
@@ -179,7 +189,7 @@ The CSS I've written to render Pandoc's output in three columns is a bit fragile
 
 ### Any plans for future development?
 
-Eh, not really. Maybe a dark mode. Or more powerful search, *e.g.*, being able to search based on labels, or navigating search results with the arrow keys. And *content*, but that won't be publicly available.
+Eh, not really. Maybe a dark mode. Or more powerful search, *e.g.*, being able to search based on labels. Some additional proposed enhancements that I may or may not implement are tracked in [an issue](https://github.com/doersino/nyum/issues/1). And *content*, but that won't be publicly available.
 
 
 ### Is there a C-based tool that's much better but not yours, so your not-invented-here syndrome didn't permit you to use it?
