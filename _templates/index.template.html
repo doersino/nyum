@@ -5,7 +5,7 @@
     <title>$if(index_title)$$index_title$ – $endif$nyum</title>
 </head>
 <body>
-    <main>
+    <main class="index">
         <header>
             <div class="name">
                 <nav>
@@ -23,7 +23,6 @@
             $endif$
             <aside class="search">
                 <input type="text" placeholder="$strings.search_placeholder$" id="search_input" disabled>
-                <input type="submit" style="display: none">
                 <div class="results" id="search_output"></div>
                 <script src="assets/search.js"></script>
             </aside>
@@ -32,6 +31,9 @@
             <section>
                 <h2>${it.category} <!--${it.recipes/length}--></h2>
                 ${for(it.recipes)}
+                    $if(show_images_on_index)$
+                        <hr class="nostep">
+                    $endif$
                     <h3>
                         <i class="icons">
                             $if(it.favorite)$<img src="assets/tabler-icons/tabler-icon-star.svg">$endif$
@@ -44,6 +46,11 @@
                     </h3>
                     $if(it.description)$
                         <p>$it.description$</p>
+                    $endif$
+                    $if(show_images_on_index)$
+                        $if(it.image)$
+                            <img src="$it.image$" class="servingsuggestion">
+                        $endif$
                     $endif$
                 ${endfor}
             </section>

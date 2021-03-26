@@ -6,6 +6,11 @@ index_description:
   always said life was like a box of chocolates. *You never know what you're
   gonna get.*
 
+# Whether to show each recipe's image, if available, on the index page. To
+# enable, set this option to any non-empty value (other than "false" in recent
+# versions of Pandoc). To disable, keep it blank.
+show_images_on_index:
+
 # You can change the content language (really only relevant for hyphenation)
 # and related textual labels here.
 lang: en

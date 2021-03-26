@@ -240,25 +240,31 @@ h3 + p {
 h3 + h3 {
     margin-top: -0.5rem;  /* in the same vein, move the recipe title below a description-less recipe a bit upwards */
 }
+.index .servingsuggestion {
+    width: 100%;
+    margin: 1rem 0;
+}
 
 ul, p {
     margin: 1rem 0;
 }
 hr {
-    counter-increment: step;
     border: 0;
     width: 100%;
     border-top: 1px solid #ddd;  /* using a border instead of background color to circument no-background-colors print settings */
+}
+.recipe hr {
+    counter-increment: step;
     margin-bottom: -2.45em;
     clear: right;  /* fix for long descriptions pushing across the hr in firefox */
 }
-hr + hr {  /* in case there is a leading hr in the document in addition to the hardcoded one */
+.recipe hr + hr {  /* in case there is a leading hr in the document in addition to the hardcoded one */
     display: none;
 }
-hr:first-child {
+.recipe hr:first-child {
     border-color: transparent;
 }
-hr::after {
+.recipe hr::after {
     content: counter(step);
     display: inline-block;
     color: var(--background);
@@ -270,42 +276,42 @@ hr::after {
     font-size: 0.8em;
     margin-top: 1.1rem;
 }
-hr + ul {
+.recipe hr + ul {
     display: inline-block;
     margin-left: var(--step-number-column-width);
     width: calc(var(--ingredient-quantity-column-width) + var(--ingredient-name-column-width));
     vertical-align: top;
 }
-hr + ul + blockquote {
+.recipe hr + ul + blockquote {
     display: inline-block;
     width: calc(100% - var(--step-number-column-width) - var(--ingredient-name-column-width) - var(--ingredient-quantity-column-width));
     vertical-align: top;
     float: right;
 }
-hr + blockquote {
+.recipe hr + blockquote {
     display: inline-block;
     margin-left: var(--step-number-column-width);
     width: calc(100% - var(--step-number-column-width));
 }
 @media screen and (max-width: 700px) {
-    hr + ul {
+    .recipe hr + ul {
         margin-bottom: 0;
         width: auto;
     }
-    hr + ul + blockquote,
-    hr + blockquote {
+    .recipe hr + ul + blockquote,
+    .recipe hr + blockquote {
         display: block !important;
         width: calc(100% - var(--step-number-column-width));
         margin-left: var(--step-number-column-width);
     }
 }
-hr + ul li {
+.recipe hr + ul li {
     list-style-type: none;
     text-indent: calc(-1 * var(--ingredient-quantity-column-width));
     padding-left: var(--ingredient-quantity-column-width);
     padding-right: 1em;  /* prevent ingredient names getting too close to the instructions */
 }
-hr + ul li > code:first-child {
+.recipe hr + ul li > code:first-child {
     display: inline-block;
     margin-left: var(--ingredient-quantity-column-width);
     margin-right: calc(-1 * var(--ingredient-quantity-column-width) - .2em);  /* to account for space between em and ingredient name */
