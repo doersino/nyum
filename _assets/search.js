@@ -101,8 +101,10 @@ function highlightSearchSelection() {
 searchInput.addEventListener('keydown', e => {
     if (e.key == "ArrowUp") {
         searchSelection = Math.max(-1, searchSelection - 1);
+        e.preventDefault();
     } else if (e.key == "ArrowDown") {
         searchSelection = Math.min(searchResultsCount - 1, searchSelection + 1);
+        e.preventDefault();
     } else if (e.key == "Enter") {
         if (searchSelection != -1) {
             document.getElementById(`${searchSelection}`).click();
