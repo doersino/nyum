@@ -75,7 +75,7 @@ h1 em {
     display: inline-block;
 }
 h1 span,
-h3 span {  /* separate original name after this a bit (but not if it's on another line) */
+h3 span {  /* separate original name after this a little (but not if it's on another line) */
     padding-right: 0.4rem;
 }
 header ul {
@@ -87,15 +87,13 @@ header ul {
 }
 header ul li {
     list-style-type: none;
-    padding: 0.5em 0.5em 0.5em 0.8em;  /* different on left to compensate for space */
-    border-left: 1px solid #ccc;
+    padding: 0.5em 0.7em 0.5em 0.6em;  /* different on left and right to compensate for space (on left) and border (on right) */
+    border-right: 1px solid #ccc;
     text-align: center;
     display: inline-block;
 }
-header ul li:first-child {
-    border-left: none;
-}
 header ul li:last-child {
+    border-right: none;
     padding-right: 0;
 }
 header ul li img {
