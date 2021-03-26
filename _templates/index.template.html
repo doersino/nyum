@@ -37,7 +37,7 @@
                             $if(it.favorite)$<img src="assets/tabler-icons/tabler-icon-star.svg">$endif$
                             $if(it.spicy)$<img src="assets/tabler-icons/tabler-icon-flame.svg" alt="$strings.spicy_label$">$endif$
                             $if(it.dessert)$<img src="assets/tabler-icons/tabler-icon-dessert.svg" alt="$strings.dessert_label$">$endif$
-                            $if(it.veggie)$$else$$if(it.vegan)$$else$<img src="assets/tabler-icons/tabler-icon-bone.svg" alt="$strings.meat_label$">$endif$$endif$
+                            $if(it.meat)$<img src="assets/tabler-icons/tabler-icon-bone.svg" alt="$strings.vegan_label$">$endif$
                             $if(it.vegan)$<img src="assets/tabler-icons/tabler-icon-leaf.svg" alt="$strings.vegan_label$">$endif$
                         </i>
                         <a href="${it.htmlfile}"><span>${it.title}</span></a>
