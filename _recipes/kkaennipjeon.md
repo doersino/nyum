@@ -17,7 +17,7 @@ spicy: ✓
 
 ---
 
-> If you're reading this "recipe" on the demo site, it might be instructive to look at the [source code](https://github.com/doersino/nyum/blob/main/_recipes/kkaennipjeon.md) as well.
+> If you're reading this "recipe" on the demo site or GitHub, it might be instructive to look at the [source code](https://raw.githubusercontent.com/doersino/nyum/main/_recipes/kkaennipjeon.md) as well.
 
 ---
 
