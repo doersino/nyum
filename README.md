@@ -23,7 +23,7 @@ Below, on the right, is the same page shown at tablet scale. More interestingly,
 
 ![](_assets/readme-images/2-tablets.jpg)
 
-Finally, more of the same on three phone-sized screens. The three-column layout doesn't fit here, so instructions are shown below ingredients.
+Finally, more of the same on three phone-sized screens. The three-column layout doesn't fit here, so instructions are shown below ingredients. And *of course* the light's turned off if you've enabled dark mode on your device.
 
 ![](_assets/readme-images/3-phones.jpg)
 
