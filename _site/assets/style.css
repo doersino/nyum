@@ -206,6 +206,7 @@ h2 {
     font-size: 0.8em;
     letter-spacing: 0.1em;
     font-weight: normal;
+    counter-reset: step;  /* handy if used on a recipe page */
 }
 h3 {
     margin: 0.5rem 0 1rem;  /* larger bottom margin to fix spacing if the last recipe in a category has no description */
@@ -259,7 +260,7 @@ hr {
 .recipe hr + hr {  /* in case there is a leading hr in the document in addition to the hardcoded one */
     display: none;
 }
-.recipe hr:first-child {
+.recipe hr:first-child {  /* hide first hr's line, but keep the step number */
     border-color: transparent;
 }
 .recipe hr::after {
@@ -323,6 +324,18 @@ blockquote {
 }
 blockquote img {
     max-width: 100%;
+}
+blockquote blockquote blockquote {  /* for drawing attention to part of an instruction */
+    background-image: url("tabler-icons/tabler-icon-flag.svg");
+    background-size: 1.2em;
+    background-position: -0.2em 0.1em;
+    background-repeat: no-repeat;
+    padding-left: 1.3em;
+    font-style: italic;
+    color: #810;
+}
+blockquote blockquote blockquote em {
+    font-style: normal;
 }
 a {
     color: #239;

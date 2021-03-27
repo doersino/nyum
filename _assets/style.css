@@ -334,6 +334,9 @@ blockquote blockquote blockquote {  /* for drawing attention to part of an instr
     font-style: italic;
     color: #810;
 }
+blockquote blockquote blockquote em {
+    font-style: normal;
+}
 a {
     color: #239;
 }
