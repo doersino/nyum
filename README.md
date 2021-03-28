@@ -189,7 +189,7 @@ The CSS I've written to render Pandoc's output in three columns is a bit fragile
 
 ### Any plans for future development?
 
-Eh, not really. Maybe a dark mode. Or more powerful search, *e.g.*, being able to search based on labels. Some additional proposed enhancements that I may or may not implement are tracked in [an issue](https://github.com/doersino/nyum/issues/1). And *content*, but that won't be publicly available.
+Eh, not really. Some proposed enhancements that I may or may not implement are tracked in [an issue](https://github.com/doersino/nyum/issues/1). And *content*, but that won't be publicly available.
 
 
 ### Is there a C-based tool that's much better but not yours, so your not-invented-here syndrome didn't permit you to use it?
