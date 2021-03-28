@@ -20,6 +20,7 @@ fetch("search.json")
 // search the "index" for a query string while assigning different weights depending on which parts of the json value the query appears in
 function search(query) {
     const matches = (haystack, needle) => (haystack || "").toLowerCase().includes(needle.toLowerCase());
+    const matchesStart = (haystack, needle) => (haystack || "").toLowerCase().startsWith(needle.toLowerCase());
 
     let results = [];
     searchIndex.forEach(e => {
@@ -34,11 +35,19 @@ function search(query) {
         // boost favories a little
         if (score > 0 && e["favorite"]) score += 2;
 
+        // slightly increase score if the query occurs right at the start of the title
+        if (matchesStart(e.title, query)) score += 3;
+
         results.push({score: score, e: e});
     });
 
-    // should be "a.score - b.score", but then we'd need to reverse afterwards
-    return results.filter(r => r.score > 0).sort((a, b) => b.score - a.score).map(e => e.e);
+    results = results
+      .filter(r => r.score > 0)           // filter out non-results
+      .sort((a, b) => b.score - a.score)  // should be "a.score - b.score", but then we'd need to reverse afterwards
+      .slice(0, 10)                       // limit to the best 10 results
+      .map(e => e.e);                     // throw away score
+
+    return results;
 }
 
 function clearResults() {
