@@ -247,6 +247,7 @@ h2 {
     letter-spacing: 0.1em;
     font-weight: normal;
     counter-reset: step;  /* handy if used on a recipe page */
+    clear: both;
 }
 h3 {
     margin: 0.5rem 0 1rem;  /* larger bottom margin to fix spacing if the last recipe in a category has no description */
