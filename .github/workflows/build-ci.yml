@@ -12,7 +12,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
 
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+      - name: Install and Build 🔧
         run: |
           wget -O pandoc.deb https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-1-amd64.deb
           sudo dpkg -i pandoc.deb
@@ -20,5 +20,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: _site # The folder the action should deploy.
+          branch: gh-pages # The branch the action should deploy to. Has to be specified in the repo's settings.
+          folder: _site # The folder the action should deploy from.
