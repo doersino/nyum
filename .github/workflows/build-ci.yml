@@ -1,30 +1,24 @@
-name: Build CI
-
+name: Build and Deploy
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+      branches:
+        - main
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      TERM: xterm
     steps:
-      - uses: actions/checkout@v2
-      
-      - name: Install pandoc
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
-          wget https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-1-amd64.deb
-          sudo dpkg -i pandoc-2.13-1-amd64.deb
-      
-      - name: Find out Terminal
-        run: echo $TERM
-
-      - name: Run build
-        run: TERM=xterm bash build.sh
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+          wget -O pandoc.deb https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-1-amd64.deb
+          sudo dpkg -i pandoc.deb
+          bash build.sh
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          branch: gh-pages # The branch the action should deploy to.
+          folder: _site # The folder the action should deploy.
