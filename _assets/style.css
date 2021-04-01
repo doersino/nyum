@@ -63,6 +63,8 @@ html {
 body {
     background-color: var(--page-background);
     color: var(--foreground);
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
     hyphens: auto;
     counter-reset: step;
 }
