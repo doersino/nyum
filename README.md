@@ -118,12 +118,22 @@ favorite: ✓
 
 After running `build.sh`, **just chuck the contents of `_site/` onto a server of your choice**.
 
+
+#### Rsyncing to a server
+
 For my own convenience, I've written `deploy.sh`, which reads a remote target of the form `USER@SERVER:PATH` from `config.yaml` and then uses `rsync` to push `_site/` cloudwards – you're welcome to use it, too. If you do:
 
 * Note that `rsync`'s `--delete` flag is set, so make sure the target path is correct before deploying for the first time. If you don't, stuff that shouldn't be deleted or overwritten might indeed be deleted or overwritten!
 * You'll need to manually create the target path on the remote before the first deployment.
 * You can run `bash deploy.sh --dry-run` to sanity-check yourself.
 * Run `bash deploy.sh --help` to learn about another very exciting flag!
+
+
+#### Automated deployment to GitHub Pages
+
+Because not everone's into antiquated `rsync`-powered deployment methods, **@jlnrrg** and **@quentin-dev** have constructed a GitHub action (see `.github/workflows/build-ci.yml`) that will spin up a Ubuntu system, install a recent version of Pandoc, build the site, and deploy it to the `gh-pages` branch of the repository.
+
+I've disabled it for *this* repsitory since I prefer the `_site/` to be part of the `main` branch for demo purposes, but I believe it should activate automatically if you fork this repository. You might also need to explicitly [enable GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) for your fork.
 
 
 ### Updating
