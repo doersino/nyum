@@ -1,4 +1,12 @@
 <footer>
     <p>$strings.footer_text$</p>
-    <p class="updatedtime">$strings.updated_on$ $updatedtime$.</p>
+    <p class="updatededit">
+        $strings.updated_on$ $updatedtime$
+        $if(basename)$
+            $if(github_url)$
+                ·
+                <a href="$github_url$/edit/main/_recipes/$basename$.md">$strings.edit$</a>
+            $endif$
+        $endif$
+    </p>
 </footer>

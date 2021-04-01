@@ -135,6 +135,8 @@ Because not everone's into antiquated `rsync`-powered deployment methods, **@jln
 
 I've disabled it for *this* repsitory since I prefer the `_site/` to be part of the `main` branch for demo purposes, but I believe it should activate automatically if you fork this repository. You might also need to explicitly [enable GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) for your fork.
 
+(Coupled with the "Edit" link shown at the bottom of each recipe if you've specified a link to your repository in `config.yaml`, continous integration effectively turns your site into a wiki!)
+
 
 ### Updating
 

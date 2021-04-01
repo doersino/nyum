@@ -60,8 +60,10 @@ done
 
 status "Building recipe pages..."
 for FILE in _recipes/*.md; do
+    # set basename to enable linking to github in the footer
     x pandoc "$FILE" \
         --metadata-file config.yaml \
+        --metadata basename="$(basename $FILE .md)" \
         --metadata updatedtime="$(date -r "$FILE" "+%Y-%m-%d")" \
         --template _templates/recipe.template.html \
         -o "_site/$(basename "$FILE" .md).html"

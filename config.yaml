@@ -23,6 +23,14 @@ strings:
   meat_label: Meat
   footer_text: Enjoy!
   updated_on: Updated on
+  edit: Edit
+
+# If you maintain your recipes in a GitHub repository, you can specify its URL
+# here – if non-empty, an "Edit" link will be shown at the bottom of each recipe
+# page, referring you to the corresponding Markdown file on GitHub. If you've
+# got some sort of continous integration (like the included GitHub Action) set
+# up, this effectively turns your site into a wiki.
+github_url: https://github.com/doersino/nyum
 
 # Remote for deployment – the value of this setting will be passed to rsync as a
 # destination, so you probably want it to look like USER@SERVER:PATH. Make sure

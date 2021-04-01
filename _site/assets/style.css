@@ -63,6 +63,8 @@ html {
 body {
     background-color: var(--page-background);
     color: var(--foreground);
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
     hyphens: auto;
     counter-reset: step;
 }
@@ -390,10 +392,14 @@ footer {
     color: var(--footer);
     margin: 2em 0;
 }
-footer .updatedtime {
+footer .updatededit {
     font-size: 0.6em;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+}
+footer .updatededit a {
+    color: inherit;
+    text-decoration: none;
 }
 
 @media print {
