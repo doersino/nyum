@@ -25,18 +25,19 @@ function search(query) {
     let results = [];
     searchIndex.forEach(e => {
         let score = 0;
-        if (matches(e.title, query)) score += 20;
+        if (matches(e["title"], query)) score += 20;
         if (matches(e["original_title"], query)) score += 10;
         if (matches(e["category"], query)) score += 5;
         if (matches(e["author"], query)) score += 5;
         if (matches(e["description"], query)) score += 2;
         if (matches(e["htmlfile"], query)) score += 1;
 
-        // boost favories a little
-        if (score > 0 && e["favorite"]) score += 2;
+        // significantly increase score if the query occurs right at the start of the (original) title
+        if (matchesStart(e["title"], query)) score += 10;
+        if (matchesStart(e["original_title"], query)) score += 5;
 
-        // slightly increase score if the query occurs right at the start of the title
-        if (matchesStart(e.title, query)) score += 3;
+        // boost favorites a little
+        if (score > 0 && e["favorite"]) score += 2;
 
         results.push({score: score, e: e});
     });
