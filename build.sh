@@ -91,7 +91,6 @@ SEPARATOR_OUTER=""  # no comma before first list element (categories)
 SEPARATOR_INNER=""  # ditto (recipes per category)
 IFS=$'\n'           # tell for loop logic to split on newlines only, not spaces
 CATS="$(cat _temp/*.category.txt)"
-echo $CATS
 for CATEGORY in $(echo "$CATS" | cut -d" " -f2- | sort | uniq); do
     printf "$SEPARATOR_OUTER" >> _temp/index.json
     x printf "{\"category\": \"$CATEGORY\", \"recipes\": [" >> _temp/index.json
