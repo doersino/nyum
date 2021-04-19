@@ -6,6 +6,7 @@ size: 1 springform
 time: 50 minutes
 source: https://www.chefkoch.de/rezepte/2874061439669102/Veganer-Schokokuchen.html
 vegan: ✓
+sweet: ✓
 ---
 
 * `200 g` flour

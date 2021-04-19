@@ -18,9 +18,14 @@ strings:
   search_placeholder: Search...
   uncategorized_label: Uncategorized
   source_label: Source
-  spicy_label: Spicy
   vegan_label: Vegan
   meat_label: Meat
+  spicy_label: Spicy
+  sweet_label: Sweet
+  salty_label: Salty
+  sour_label: Sour
+  bitter_label: Bitter
+  umami_label: Umami
   footer_text: Enjoy!
   updated_on: Updated on
   edit: Edit
