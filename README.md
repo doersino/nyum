@@ -63,11 +63,16 @@ Run `bash build.sh`.
 
 TL;DR: See the example recipes in `_recipes/`.
 
-Each recipe **begins with YAML front matter specifying its title**, how many servings it produces, whether it's spicy or vegan or a favorite, the category, an image (which must also be located in the `_recipes/` directory), and other information. Most of these are optional!
+Each recipe **begins with YAML front matter specifying its title**, how many servings it produces, whether it's spicy or vegan or a favorite, the category, an image (which must also be located in the `_recipes/` directory), and other information. Scroll down a bit for a list of possible entries – most of these are optional!
 
 The **body of a recipe consists of horizontal-rule-separated steps, each listing ingredients relevant in that step along with the associated instruction**. Ingredients are specified as an unordered list, with ingredient amounts enclosed in backticks (this enables the columns on the resulting website – if you don't care about that, omit the backticks). The instructions must be preceded with a `>`. Note that a step can also solely consist of an instruction.
 
 *You've got the full power of Markdown at your disposal – douse your recipes in [formatting](https://github.com/doersino/nyum/blob/main/_recipes/kkaennipjeon.md), include a picture for each step, and use the garlic emoji as liberally as you should be using garlic in your cooking!*
+
+<sub>(Before building this tool, I had been using a custom LaTeX template built on top of the [cuisine](https://ctan.org/pkg/cuisine?lang=en) package, which enforces a three-column, relevant-ingredients-next-to-instructions structure. [In the process of graduating from university, I found myself contemporaneously graduating from wanting to use LaTeX for everything, which was part of the impetus for building this tool.] I've found this structure to be more useful than the more commonly found all-ingredients-first-then-a-block-of-instructions approach.)</sub>
+
+
+#### Example
 
 ```markdown
 ---
@@ -111,7 +116,30 @@ favorite: ✓
 
 ```
 
-(Before building this tool, I was using a custom LaTeX template built on top of the [cuisine](https://ctan.org/pkg/cuisine?lang=en) package, which enforces a three-column, relevant-ingredients-next-to-instructions structure. [In the process of graduating from university, I found myself contemporaneously graduating from wanting to use LaTeX for everything, which was part of the impetus for building this tool.] I've found this structure to be more useful than the more commonly found all-ingredients-first-then-a-block-of-instructions approach.)
+
+#### YAML front matter
+
+You *must* specify a non-empty value for the `title` entry. Everything else is optional:
+
+* `original_title`: Name of the recipe in, say, its country of origin.
+* `category`: Self-explanatory. Recipes belonging to the same category will be grouped on the index page.
+* `description` A short description of the dish, it will be shown on the index page as well.
+* `nutrition`: Allows you to note down some nutrition facts for a recipe. Must take the form of a list, for example:
+    ```yaml
+    nutrition:
+      - 300 calories
+      - 60 g sugar
+      - 0.8 g fat
+      - 3.8 g protein
+    ```
+* `image`: Filename of a photo of the prepared dish, *e.g.*, `strawberrysmoothie.jpg`. The image must be located *alongside* the Markdown document – not in a subdirectory, for instance.
+* `size`: How many servings does the recipe produce, or how many cupcakes does it yield, or does it fit into a small or large springform?
+* `time`: Time it takes from getting started to serving.
+* `author`: Your grandma, for example.
+* `source`: Paste the source URL here if the recipe is from the internet. If set, this will turn the `author` label into a link. If no author is set, a link labelled "Source" will be shown.
+* `favorite`: If set to a non-empty value (*e.g.*, "✓"), a little star will be shown next to the recipe's name. It'll also receive a slight boost in search results.
+* `veggie` and `vegan`: Similar and self-explanatory. If *neither* of these is set to a non-empty value, a "Meat" label will be shown.
+* `spicy`, `sweet`, `salty`, `sour`, `bitter`, and `umami`: Similar – if set to a non-empty value, a colorful icon will be shown.
 
 
 ### Deployment

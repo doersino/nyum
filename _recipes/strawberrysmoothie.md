@@ -1,16 +1,16 @@
 ---
 title: Strawberry Smoothie
 description: Great on a hot summer day.
-image: strawberrysmoothie.jpg
-size: 2 servings
-time: 5 minutes
-veggie: ✓
-sweet: ✓
 nutrition:
   - 300 calories
   - 60 g sugar
   - 0.8 g fat
   - 3.8 g protein
+image: strawberrysmoothie.jpg
+size: 2 servings
+time: 5 minutes
+veggie: ✓
+sweet: ✓
 ---
 
 * `300 g` frozen strawberries
