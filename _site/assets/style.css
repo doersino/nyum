@@ -126,9 +126,6 @@ header ul {
     text-transform: uppercase;
     float: right;
     margin: 0;
-    white-space: nowrap;  /* this and next 3 lines: scroll if too wide for screen */
-    max-width: 100%;
-    overflow: scroll;
 }
 header ul li {
     list-style-type: none;
@@ -243,8 +240,26 @@ header .nutrition img {
 .servingsuggestion {
     width: 48em;
     max-width: 100%;
-    display: block;
     margin: auto;
+}
+.servingsuggestion img {
+    display: block;
+    width: 100%;
+}
+.servingsuggestion a {
+    text-decoration: none;
+    color: inherit;
+}
+.servingsuggestion a:hover {
+    opacity: 1;
+}
+.servingsuggestion .attribution {
+    font-size: 0.6em;
+    line-height: 1;
+    padding: 0 0.4em 0.4em 0;
+    margin-top: -1.4em;  /* 1em text height plus 0.4em bottom padding */
+    text-align: right;
+    color: var(--background);
 }
 
 section {

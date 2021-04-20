@@ -133,6 +133,7 @@ You *must* specify a non-empty value for the `title` entry. Everything else is o
       - 3.8 g protein
     ```
 * `image`: Filename of a photo of the prepared dish, *e.g.*, `strawberrysmoothie.jpg`. The image must be located *alongside* the Markdown document – not in a subdirectory, for instance.
+* `image_attribution` and `image_source`: If you haven't created the recipe photo yourself, you might be required to attribute its author or link back to its source (which should be an URL). The attribution, if set, will be shown semi-transparently in the bottom right corner of the image. If the source is non-empty, a click on the image will take you there.
 * `size`: How many servings does the recipe produce, or how many cupcakes does it yield, or does it fit into a small or large springform?
 * `time`: Time it takes from getting started to serving.
 * `author`: Your grandma, for example.

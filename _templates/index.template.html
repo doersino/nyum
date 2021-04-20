@@ -54,7 +54,20 @@
                     $endif$
                     $if(show_images_on_index)$
                         $if(it.image)$
-                            <img src="$it.image$" class="servingsuggestion">
+                            <div class="servingsuggestion">
+                                $if(it.image_source)$
+                                    <a href="$it.image_source$">
+                                $endif$
+                                <img src="$it.image$">
+                                $if(it.image_source)$
+                                    </a>
+                                $endif$
+                                $if(it.image_attribution)$
+                                    <div class="attribution">
+                                        $it.image_attribution$
+                                    </div>
+                                $endif$
+                            </div>
                         $endif$
                     $endif$
                 ${endfor}

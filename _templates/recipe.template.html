@@ -74,7 +74,20 @@
             $endif$
         </header>
         $if(image)$
-            <img src="$image$" class="servingsuggestion">
+            <div class="servingsuggestion">
+                $if(image_source)$
+                    <a href="$image_source$">
+                $endif$
+                <img src="$image$">
+                $if(image_attribution)$
+                    <div class="attribution">
+                        $image_attribution$
+                    </div>
+                $endif$
+                $if(image_source)$
+                    </a>
+                $endif$
+            </div>
         $endif$
         <section>
             <hr>
