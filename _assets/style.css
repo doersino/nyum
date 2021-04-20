@@ -126,9 +126,6 @@ header ul {
     text-transform: uppercase;
     float: right;
     margin: 0;
-    white-space: nowrap;  /* this and next 3 lines: scroll if too wide for screen */
-    max-width: 100%;
-    overflow: scroll;
 }
 header ul li {
     list-style-type: none;
