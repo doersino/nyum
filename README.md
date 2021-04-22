@@ -49,6 +49,8 @@ That's it, only one dependency! Hooray!
 
 Open `config.yaml` in whichever text editor you heart is drawn to in the moment and follow the instructions in the comments. There's not actually very much to configure.
 
+You can, for example, change the language of your site. There's also a setting `show_images_on_index` (whose name obviates any need for further explanation).
+
 
 ### Building
 
