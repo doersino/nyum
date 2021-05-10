@@ -28,12 +28,15 @@ function status {
     $QUIET && return
     BOLD=$(tput bold)
     NORMAL=$(tput sgr0)
-    echo "${BOLD}$@${NORMAL}"
+    echo "${BOLD}$*${NORMAL}"
 }
 
 function x {
-    $QUIET || echo "↪" $@ >&2
-    $@
+    _IFS="$IFS"
+    IFS=" "
+    $QUIET || echo "↪" "$*" >&2
+    IFS="$_IFS"
+    "$@"
 }
 
 status "Resetting _site/ and _temp/..."
@@ -63,7 +66,7 @@ for FILE in _recipes/*.md; do
     # set basename to enable linking to github in the footer
     x pandoc "$FILE" \
         --metadata-file config.yaml \
-        --metadata basename="$(basename $FILE .md)" \
+        --metadata basename="$(basename "$FILE" .md)" \
         --metadata updatedtime="$(date -r "$FILE" "+%Y-%m-%d")" \
         --template _templates/recipe.template.html \
         -o "_site/$(basename "$FILE" .md).html"
@@ -74,15 +77,15 @@ for FILE in _recipes/*.md; do
     # set basename to avoid having to use $sourcefile$ which pandoc sets automatically but contains the relative path
     x pandoc "$FILE" \
         --metadata-file config.yaml \
-        --metadata basename="$(basename $FILE .md)" \
+        --metadata basename="$(basename "$FILE" .md)" \
         --template _templates/technical/category.template.txt \
         -t html -o "_temp/$(basename "$FILE" .md).category.txt"
 
     # set htmlfile in order to link to it on the index page
     x pandoc "$FILE" \
-        --metadata htmlfile="$(basename $FILE .md).html" \
+        --metadata htmlfile="$(basename "$FILE" .md).html" \
         --template _templates/technical/metadata.template.json \
-        -t html -o "_temp/$(basename $FILE .md).metadata.json"
+        -t html -o "_temp/$(basename "$FILE" .md).metadata.json"
 done
 
 status "Grouping metadata by category..."  # (yep, this is a right mess)
@@ -92,13 +95,13 @@ SEPARATOR_INNER=""  # ditto (recipes per category)
 IFS=$'\n'           # tell for loop logic to split on newlines only, not spaces
 CATS="$(cat _temp/*.category.txt)"
 for CATEGORY in $(echo "$CATS" | cut -d" " -f2- | sort | uniq); do
-    printf "$SEPARATOR_OUTER" >> _temp/index.json
+    printf '%s' "$SEPARATOR_OUTER" >> _temp/index.json
     x printf "{\"category\": \"$CATEGORY\", \"recipes\": [" >> _temp/index.json
-    for C in $(echo "$CATS"); do
+    for C in $CATS; do
         BASENAME=$(echo "$C" | cut -d" " -f1)
         C_CAT=$(echo "$C" | cut -d" " -f2-)
         if [[ "$C_CAT" == "$CATEGORY" ]]; then
-            printf "$SEPARATOR_INNER" >> _temp/index.json
+            printf '%s' "$SEPARATOR_INNER" >> _temp/index.json
             x cat "_temp/$BASENAME.metadata.json" >> _temp/index.json
             SEPARATOR_INNER=","
         fi
@@ -123,7 +126,7 @@ status "Assembling search index..."
 echo "[" > _temp/search.json
 SEPARATOR=""
 for FILE in _temp/*.metadata.json; do
-    printf "$SEPARATOR" >> _temp/search.json
+    printf '%s' "$SEPARATOR" >> _temp/search.json
     x cat "$FILE" >> _temp/search.json
     SEPARATOR=","
 done

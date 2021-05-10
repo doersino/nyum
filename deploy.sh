@@ -26,12 +26,15 @@ function status {
     $QUIET && return
     BOLD=$(tput bold)
     NORMAL=$(tput sgr0)
-    echo "${BOLD}$@${NORMAL}"
+    echo "${BOLD}$*${NORMAL}"
 }
 
 function x {
-    $QUIET || echo "↪" $@ >&2
-    $@
+    _IFS="$IFS"
+    IFS=" "
+    $QUIET || echo "↪" "$*" >&2
+    IFS="$_IFS"
+    "$@"
 }
 
 status "Reading remote configuration..."
@@ -46,7 +49,7 @@ status "Deploying..."
 FLAGS="--verbose"
 $QUIET && FLAGS="--quiet"
 $DRYRUN && FLAGS="$FLAGS --dry-run"
-x rsync -a --delete $FLAGS "_site/" "$REMOTE"
+x rsync -a --delete "$FLAGS" "_site/" "$REMOTE"
 
 EMOJI="🍇🍈🍉🍊🍋🍌🍍🥭🍎🍏🍐🍑🍒🍓🥝🍅🥥🥑🍆🥔🥕🌽🌶️🥒🥬🥦"
 status "Success!" "${EMOJI:RANDOM%${#EMOJI}:1}"
