@@ -258,7 +258,7 @@ However, the subdirectories `_assets/fonts/` and `_assets/tabler-icons` contain 
 
 * The sans-serif typeface [**Barlow**](https://github.com/jpt/barlow) is licensed under the *SIL Open Font License Version 1.1*, see `_assets/fonts/barlow/OFL.txt`.
 * [**Lora**](https://github.com/cyrealtype/Lora-Cyrillic), the serif typeface used in places where Barlow isn't, is also licensed under the *SIL Open Font License Version 1.1*, see `_assets/fonts/lora/OFL.txt`.
-* The icons (despite having been modified slightly) are part of [**Tabler Icons**](https://tabler-icons.io), they're licensed under the *MIT License*, see `_assets/tabler-icons/LICENSE.txt`.
+* The icons (despite having been modified slightly) are part of [**Tabler Icons**](https://tabler-icons.io), they're licensed under the *MIT License*, see `_assets/tabler-icons/LICENSE.txt`. The placeholder image shown on the index page for recipes that don't have their own image if the `show_images_on_index` option is enabled also makes use of these icons.
 
 Finally, some **shoutouts** that aren't *really* licensing-related, but fit better here than anywhere else in this document:
 

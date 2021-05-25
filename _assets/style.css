@@ -18,6 +18,8 @@
     --sans: Barlow, Fabrikat, Helvetica, sans-serif;
     --serif: Lora, Georgia, serif;
 
+    --images-on-index-size: 5em;
+
     --step-number-column-width: 3em;
     --ingredient-quantity-column-width: 5em;
     --ingredient-name-column-width: 10em;
@@ -237,6 +239,22 @@ header .nutrition img {
     background-color: var(--highlighted-search-result);
 }
 
+.entry {
+    min-height: var(--images-on-index-size);
+    margin-left: calc(1em + var(--images-on-index-size));
+}
+.entry .servingsuggestion {
+    margin-left: calc(-1em - var(--images-on-index-size));
+    margin-bottom: 1em;
+    width: var(--images-on-index-size);
+    height: var(--images-on-index-size);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    background-image: url(placeholder.png);
+}
+
 .servingsuggestion {
     width: 48em;
     max-width: 100%;
@@ -310,10 +328,6 @@ h3 + p {
 }
 h3 + h3 {
     margin-top: -0.5rem;  /* in the same vein, move the recipe title below a description-less recipe a bit upwards */
-}
-.index .servingsuggestion {
-    width: 100%;
-    margin: 1rem 0;
 }
 
 ul, p {
