@@ -31,7 +31,7 @@
             <section>
                 <h2>${it.category} <!--${it.recipes/length}--></h2>
                 ${for(it.recipes)}
-                    <div class="entry $if(show_images_on_index)$with-servingsuggestion$endif$">
+                    $if(show_images_on_index)$<div class="entry">$endif$
                         $if(show_images_on_index)$
                             <div class="servingsuggestion"$if(it.image)$style="background-image: url($it.image$);"$endif$></div>
                         $endif$
@@ -53,7 +53,7 @@
                         $if(it.description)$
                             <p>$it.description$</p>
                         $endif$
-                    </div>
+                    $if(show_images_on_index)$</div>$endif$
                 ${endfor}
             </section>
         ${endfor}
