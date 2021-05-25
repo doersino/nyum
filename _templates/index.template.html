@@ -31,9 +31,9 @@
             <section>
                 <h2>${it.category} <!--${it.recipes/length}--></h2>
                 ${for(it.recipes)}
-                    <div class="entry">
+                    <div class="entry $if(show_images_on_index)$with-servingsuggestion$endif$">
                         $if(show_images_on_index)$
-                            <div class="servingsuggestion" $if(it.image)$style="background-image: url($it.image$);"$endif$></div>
+                            <div class="servingsuggestion"$if(it.image)$style="background-image: url($it.image$);"$endif$></div>
                         $endif$
                         <h3>
                             <i class="icons">

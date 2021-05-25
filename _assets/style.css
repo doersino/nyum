@@ -239,7 +239,7 @@ header .nutrition img {
     background-color: var(--highlighted-search-result);
 }
 
-.entry {
+.entry.with-servingsuggestion {
     min-height: var(--images-on-index-size);
     margin-left: calc(1em + var(--images-on-index-size));
 }
