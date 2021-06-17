@@ -19,18 +19,32 @@ fetch("search.json")
 
 // search the "index" for a query string while assigning different weights depending on which parts of the json value the query appears in
 function search(query) {
-    const matches = (haystack, needle) => (haystack || "").toLowerCase().includes(needle.toLowerCase());
-    const matchesStart = (haystack, needle) => (haystack || "").toLowerCase().startsWith(needle.toLowerCase());
+    const matchesEvery = (haystack, needle) => {
+        let lowerHaystack = (haystack || "").toLowerCase();
+        return needle.toLowerCase().split(/[\s,]+/).every(word => lowerHaystack.includes(word));
+    };
+    const matchesAny = (haystack, needle) => {
+        let lowerHaystack = (haystack || "").toLowerCase();
+        return needle.toLowerCase().split(/[\s,]+/).some(word => lowerHaystack.includes(word));
+    };
+    const matchesExact = (haystack, needle) => {
+        let lowerHaystack = (haystack || "").toLowerCase();
+        return lowerHaystack.includes(needle.toLowerCase());
+    };
+    const matchesStart = (haystack, needle) => {
+        let lowerHaystack = (haystack || "").toLowerCase();
+        return lowerHaystack.startsWith(needle.toLowerCase());
+    };
 
     let results = [];
     searchIndex.forEach(e => {
         let score = 0;
-        if (matches(e["title"], query)) score += 20;
-        if (matches(e["original_title"], query)) score += 10;
-        if (matches(e["category"], query)) score += 5;
-        if (matches(e["author"], query)) score += 5;
-        if (matches(e["description"], query)) score += 2;
-        if (matches(e["htmlfile"], query)) score += 1;
+        if (matchesEvery(e["title"], query)) score += 20;
+        if (matchesEvery(e["original_title"], query)) score += 10;
+        if (matchesEvery(e["category"], query)) score += 5;
+        if (matchesEvery(e["author"], query)) score += 5;
+        if (matchesEvery(e["description"], query)) score += 2;
+        if (matchesEvery(e["htmlfile"], query)) score += 1;
 
         // significantly increase score if the query occurs right at the start of the (original) title
         if (matchesStart(e["title"], query)) score += 10;
