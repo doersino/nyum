@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+<head>
+    ${head.partial.html()}
+    <title>$category$ – $if(index_title)$$index_title$ – $endif$nyum</title>
+</head>
+<body>
+    <main class="index">
+        <header>
+            <div class="name">
+                <nav>
+                    <a href="index.html"><img class="logo" src="assets/logo.svg"></a>
+                    <i>⟩</i>
+                </nav>
+                <h1><span>$category$</span></h1>
+                <!--<p>$recipes/length$ recipes.</p>-->
+            </div>
+        </header>
+        <section>
+            ${for(recipes)}
+                ${it:recipe_list_item.partial.html()}
+            ${endfor}
+        </section>
+        ${footer.partial.html()}
+    </main>
+</body>
+</html>

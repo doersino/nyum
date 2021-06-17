@@ -1,0 +1,23 @@
+$if(show_images_on_index)$<div class="entry">$endif$
+    $if(show_images_on_index)$
+        <div class="servingsuggestion"$if(it.image)$style="background-image: url($it.image$);"$endif$></div>
+    $endif$
+    <h3>
+        <i class="icons">
+            $if(it.favorite)$<img src="assets/tabler-icons/tabler-icon-star.svg">$endif$
+            $if(it.veggie)$$else$$if(it.vegan)$$else$<img src="assets/tabler-icons/tabler-icon-meat.svg" alt="$strings.meat_label$">$endif$$endif$
+            $if(it.vegan)$<img src="assets/tabler-icons/tabler-icon-leaf.svg" alt="$strings.vegan_label$">$endif$
+            $if(it.spicy)$<img src="assets/tabler-icons/tabler-icon-pepper.svg" alt="$strings.spicy_label$">$endif$
+            $if(it.sweet)$<img src="assets/tabler-icons/tabler-icon-candy.svg" alt="$strings.sweet_label$">$endif$
+            $if(it.salty)$<img src="assets/tabler-icons/tabler-icon-salt.svg" alt="$strings.salty_label$">$endif$
+            $if(it.sour)$<img src="assets/tabler-icons/tabler-icon-lemon.svg" alt="$strings.sour_label$">$endif$
+            $if(it.bitter)$<img src="assets/tabler-icons/tabler-icon-coffee.svg" alt="$strings.bitter_label$">$endif$
+            $if(it.umami)$<img src="assets/tabler-icons/tabler-icon-mushroom.svg" alt="$strings.umami_label$">$endif$
+        </i>
+        <a href="${it.htmlfile}"><span>${it.title}</span></a>
+        $if(it.original_title)$<em>$it.original_title$</em>$endif$
+    </h3>
+    $if(it.description)$
+        <p>$it.description$</p>
+    $endif$
+$if(show_images_on_index)$</div>$endif$

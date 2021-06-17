@@ -42,7 +42,7 @@ I don't like complicated dependency trees and poorly-documented build processes,
 
 That's it, only one dependency! Hooray!
 
-(Since `build.sh` relies on some Bash-specific bits and bobs, you'll also need that – but since it's the default shell on most non-Windows systems, you're likely running it already. If you're a Windows user, don't despair: Through the magic of [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and possibly [some Git or text editor reconfiguration to deal with line endings](https://github.com/doersino/nyum/issues/10), it's definitely possible to run this tool. If you run into trouble, feel free to [file an issue](https://github.com/doersino/nyum/issues), but know that I might be unable to offer much well-founded advice as I haven't used Windows in a decade.)
+(Since `build.sh` relies on some Bash-specific bits and bobs and ubiquitous POSIX utilities like `awk` and `tee`, you'll also need those – but since Bash the default shell on most non-Windows systems, you're likely running it already. If you're a Windows user, don't despair: Through the magic of [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and possibly [some Git or text editor reconfiguration to deal with line endings](https://github.com/doersino/nyum/issues/10), it's definitely possible to run this tool. If you run into trouble, feel free to [file an issue](https://github.com/doersino/nyum/issues), but know that I might be unable to offer much well-founded advice as I haven't used Windows for development in quite a while.)
 
 
 ### Configuration
@@ -193,9 +193,9 @@ Because I thought writing a Bash script where I construct a JSON value based on 
 
 ### How/why does that huge mess in `build.sh` work?
 
-Apart from the translation of Markdown into HTML, which is a fairly self-explanatory `pandoc` call, and the `config.yaml` shenanigans, which are merely a medium-sized mess: I wanted to **build an index page listing all recipes, but ordered by category** and with cute spicy/vegan/etc. icons.
+Apart from the translation of Markdown into HTML, which is a fairly self-explanatory `pandoc` call, and the `config.yaml` shenanigans, which are merely a medium-sized mess: I wanted to **build an index page listing all recipes, but ordered by category** and with cute spicy/vegan/etc. icons along with **category pages linked from the index pages and recipe pages**.
 
-Each recipe has a set of metadata (specified using YAML, but that's not relevant here), including its category. When outputting HTML, Pandoc provides the `$meta-json$` template variable which resolves to a JSON value containing this metadata. Crucially, it understands the same format during input – when invoking `pandoc` with the `--metadata-file PATH` flag, the metadata from that file is merged into the input's metadata before further processing. The challenge, then, was **transforming the JSON-shaped metadata of all recipes into a single JSON value grouping them by category**.
+Each recipe has a set of metadata (specified using YAML, but that's not relevant here), including its category. When outputting HTML, Pandoc provides the `$meta-json$` template variable which resolves to a JSON value containing this metadata. Crucially, it understands the same format during input – when invoking `pandoc` with the `--metadata-file PATH` flag, the metadata from that file is merged into the input's metadata before further processing. The challenge, then, was **transforming the JSON-shaped metadata of all recipes into a single JSON value grouping them by category**, along with one separately stored JSON value for each category (which was essentially free, in terms of complexity, given the code generating the grouped JSON value).
 
 This led me down the path of...
 

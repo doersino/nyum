@@ -240,6 +240,7 @@ header .nutrition img {
 }
 
 .entry {
+    margin-top: 1em;  /* fix for category pages */
     min-height: var(--images-on-index-size);
     margin-left: calc(1em + var(--images-on-index-size));
 }
@@ -302,6 +303,7 @@ h3 {
     margin: 0.5rem 0 1rem;  /* larger bottom margin to fix spacing if the last recipe in a category has no description */
     font-size: 1.3rem;
 }
+h2 a,
 h3 a {
     text-decoration: none;
     color: inherit;
