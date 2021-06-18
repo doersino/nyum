@@ -113,10 +113,11 @@ status "Building recipe pages..."
 for FILE in _recipes/*.md; do
     CATEGORY_FAUX_URLENCODED="$(cat "_temp/$(basename "$FILE" .md).category.txt" | cut -d" " -f2- | awk -f "_templates/technical/faux_urlencode.awk")"
 
-    # when running under GitHub Actions, use the last commit date
-    # for the updatedtime. You'll probably also want to set the
-    # TZ environment variable to your local timezone in the
-    # workflow.
+    # when running under GitHub Actions, all file modification dates are set to
+    # the date of the checkout (i.e., the date on which the workflow was
+    # executed), so in that case, use the most recent commit date of each recipe
+    # as its update date – you'll probably also want to set the TZ environment
+    # variable to your local timezone in the workflow file (#21)
     if [[ "$GITHUB_ACTIONS" = true ]]; then
         UPDATED_AT="$(git log -1 --date=short-local --pretty='format:%cd' "$FILE")"
     else
