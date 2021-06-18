@@ -113,13 +113,23 @@ status "Building recipe pages..."
 for FILE in _recipes/*.md; do
     CATEGORY_FAUX_URLENCODED="$(cat "_temp/$(basename "$FILE" .md).category.txt" | cut -d" " -f2- | awk -f "_templates/technical/faux_urlencode.awk")"
 
+    # when running under GitHub Actions, use the last commit date
+    # for the updatedtime. You'll probably also want to set the
+    # TZ environment variable to your local timezone in the
+    # workflow.
+    if [[ "$GITHUB_ACTIONS" = true ]]; then
+        UPDATED_AT="$(git log -1 --date=short-local --pretty='format:%cd' "$FILE")"
+    else
+        UPDATED_AT="$(date -r "$FILE" "+%Y-%m-%d")"
+    fi
+
     # set basename to enable linking to github in the footer, and set
     # category_faux_urlencoded in order to link to that in the header
     x pandoc "$FILE" \
         --metadata-file config.yaml \
         --metadata basename="$(basename "$FILE" .md)" \
         --metadata category_faux_urlencoded="$CATEGORY_FAUX_URLENCODED" \
-        --metadata updatedtime="$(date -r "$FILE" "+%Y-%m-%d")" \
+        --metadata updatedtime="$UPDATED_AT" \
         --template _templates/recipe.template.html \
         -o "_site/$(basename "$FILE" .md).html"
 done
