@@ -124,7 +124,7 @@ favorite: ✓
 You *must* specify a non-empty value for the `title` entry. Everything else is optional:
 
 * `original_title`: Name of the recipe in, say, its country of origin.
-* `category`: Self-explanatory. Recipes belonging to the same category will be grouped on the index page.
+* `category`: Self-explanatory. Recipes belonging to the same category will be grouped on the index page. Don't name a category such that the generated category page will have the same URL as a recipe.
 * `description` A short description of the dish, it will be shown on the index page as well.
 * `nutrition`: Allows you to note down some nutrition facts for a recipe. Must take the form of a list, for example:
     ```yaml
