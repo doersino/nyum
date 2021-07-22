@@ -18,7 +18,7 @@ sweet: ✓
 * `240 ml` water
 * `100 ml` sunflower oil
 
-> Most brands of backing chocolate are vegan, but make sure to double-check.
+> Most brands of baking chocolate are vegan, but make sure to double-check.
 >
 > Chop the chocolate into small cubes. Place the dry ingredients in a bowl and mix, then add the water and oil and mix until you end up with a smooth batter. You can also add nuts or berries at this stage.
 
