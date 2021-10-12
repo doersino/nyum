@@ -36,13 +36,13 @@ First off, either `git clone` this repository or [download it as a ZIP](https://
 
 I don't like complicated dependency trees and poorly-documented build processes, so here's an **exhaustive list of the dependencies** you're not overwhelmingly likely to already have:
 
-* [Pandoc](https://pandoc.org) – version 2.8 (released in November 2019) or later.
+* [Pandoc](https://pandoc.org) – version 2.8 (released in November 2019) or later *(earlier versions don't support partials/subtemplates)*.
 
     On macOS, assuming you're using [Homebrew](https://brew.sh), `brew install pandoc` will do the trick. On Linux, your package manager almost certainly has it (although the version it provides might be outdated – recent binaries are available [here](https://github.com/jgm/pandoc/releases/latest)).
 
 That's it, only one dependency! Hooray!
 
-(Since `build.sh` relies on some Bash-specific bits and bobs and ubiquitous POSIX utilities like `awk` and `tee`, you'll also need those – but since Bash the default shell on most non-Windows systems, you're likely running it already. If you're a Windows user, don't despair: Through the magic of [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and possibly [some Git or text editor reconfiguration to deal with line endings](https://github.com/doersino/nyum/issues/10), it's definitely possible to run this tool. If you run into trouble, feel free to [file an issue](https://github.com/doersino/nyum/issues), but know that I might be unable to offer much well-founded advice as I haven't used Windows for development in quite a while.)
+(Since `build.sh` relies on some Bash-specific bits and bobs and ubiquitous POSIX utilities like `awk` and `tee`, you'll also need those – but since Bash the default shell on most non-Windows systems, you're likely running it already. If you're a Windows user, don't despair: Through the magic of [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and possibly [some Git or text editor reconfiguration to deal with line endings](https://github.com/doersino/nyum/issues/10), it's definitely possible to run this tool. If you run into trouble, feel free to [file an issue](https://github.com/doersino/nyum/issues), but know that I might be unable to offer much well-founded advice.)
 
 
 ### Configuration
