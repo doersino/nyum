@@ -10,7 +10,7 @@ image: charsiupork.jpg
 
 ---
 
-* `3 pounds (1300g)` boneless pork shoulder
+* `1.5kg` boneless pork shoulder
 * `3 tbsp` brown sugar
 * `1.5 tsp` Chinese five spice
 * `2 tbsp (30g)` shaoxing rice wine
