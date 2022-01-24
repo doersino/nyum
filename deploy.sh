@@ -38,9 +38,11 @@ function x {
 }
 
 status "Reading remote configuration..."
-x pandoc _templates/technical/empty.md --metadata title="dummy" --metadata-file config.yaml --template _templates/technical/deploy_remote.template.txt -t html -o _temp/deploy_remote.txt
-REMOTE="$(cat _temp/deploy_remote.txt)"
-if [ -z "$REMOTE" ]; then
+x pandoc _templates/technical/empty.md --metadata title="dummy" --metadata-file config.yaml --template _templates/technical/deploy_remote_server.template.txt -t html -o _temp/deploy_remote_server.txt
+REMOTE_SERVER="$(cat _temp/deploy_remote_server.txt)"
+x pandoc _templates/technical/empty.md --metadata title="dummy" --metadata-file config.yaml --template _templates/technical/deploy_remote_path.template.txt -t html -o _temp/deploy_remote_path.txt
+REMOTE_PATH="$(cat _temp/deploy_remote_path.txt)"
+if [ -z "$REMOTE_SERVER" ]; then
     status "Can't deploy – it seems like you haven't specified a remote."
     exit 1
 fi
@@ -49,7 +51,8 @@ status "Deploying..."
 FLAGS="--verbose"
 $QUIET && FLAGS="--quiet"
 $DRYRUN && FLAGS="$FLAGS --dry-run"
-x rsync -a --delete "$FLAGS" "_site/" "$REMOTE"
+#x rsync -a --delete "$FLAGS" "_site/" "$REMOTE"
 
-EMOJI="🍇🍈🍉🍊🍋🍌🍍🥭🍎🍏🍐🍑🍒🍓🥝🍅🥥🥑🍆🥔🥕🌽🌶️🥒🥬🥦"
-status "Success!" "${EMOJI:RANDOM%${#EMOJI}:1}"
+lftp -e "mirror -eRv _site/ $REMOTE_PATH; quit;"  sftp://$REMOTE_SERVER
+
+status "Success!"

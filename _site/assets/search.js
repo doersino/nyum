@@ -83,14 +83,8 @@ function showResults(results) {
             + `<h3>`
             + `<i class="icons">`
             + (e.favorite ? `<img src="assets/tabler-icons/tabler-icon-star.svg"> ` : ``)
-            + ((e.veggie || e.vegan) ? `` : `<img src="assets/tabler-icons/tabler-icon-meat.svg"> `)
-            + (e.vegan ? `<img src="assets/tabler-icons/tabler-icon-leaf.svg"> ` : ``)
+            + (e.veggie ? `<img src="assets/tabler-icons/tabler-icon-leaf.svg"> ` : `<img src="assets/tabler-icons/tabler-icon-meat.svg"> `)
             + (e.spicy ? `<img src="assets/tabler-icons/tabler-icon-pepper.svg"> ` : ``)
-            + (e.sweet ? `<img src="assets/tabler-icons/tabler-icon-candy.svg"> ` : ``)
-            + (e.salty ? `<img src="assets/tabler-icons/tabler-icon-salt.svg"> ` : ``)
-            + (e.sour ? `<img src="assets/tabler-icons/tabler-icon-lemon.svg"> ` : ``)
-            + (e.bitter ? `<img src="assets/tabler-icons/tabler-icon-coffee.svg"> ` : ``)
-            + (e.umami ? `<img src="assets/tabler-icons/tabler-icon-mushroom.svg"> ` : ``)
             + `</i>`
             + `<span>${e.title}</span> `
             + (e.original_title ? `<em>${e.original_title}</em>` : ``)

@@ -1,15 +1,12 @@
 # Text shown on the index page.
-index_title: I Can't Believe It's Not a Cookbook!
+index_title: Jay's Din Dins 
 index_description:
-  Po-tay-toes. Boil 'em, mash 'em, stick 'em in a stew. Lovely big golden chips
-  with a nice piece of fried fish. Even you couldn't say no to that. My mom
-  always said life was like a box of chocolates. *You never know what you're
-  gonna get.*
+  Collected Recipes and Notes 
 
 # Whether to show each recipe's image, if available, on the index page. To
 # enable, set this option to any non-empty value (other than "false" in recent
 # versions of Pandoc). To disable, keep it blank.
-show_images_on_index:
+show_images_on_index: true 
 
 # You can change the content language (really only relevant for hyphenation)
 # and related textual labels here.
@@ -18,15 +15,10 @@ strings:
   search_placeholder: Search...
   uncategorized_label: Uncategorized
   source_label: Source
-  vegan_label: Vegan
+  veggie_label: Vegetarian/Vegan
   meat_label: Meat
   spicy_label: Spicy
-  sweet_label: Sweet
-  salty_label: Salty
-  sour_label: Sour
-  bitter_label: Bitter
-  umami_label: Umami
-  footer_text: Enjoy!
+  footer_text: Built with [NYUM](https://github.com/doersino/nyum). Enjoy! 
   updated_on: Updated on
   edit: Edit
 
@@ -35,10 +27,11 @@ strings:
 # page, referring you to the corresponding Markdown file on GitHub. If you've
 # got some sort of continous integration (like the included GitHub Action) set
 # up, this effectively turns your site into a wiki.
-github_url: https://github.com/doersino/nyum
+github_url: 
 
 # Remote for deployment – the value of this setting will be passed to rsync as a
 # destination, so you probably want it to look like USER@SERVER:PATH. Make sure
 # it's correct – the path in particular – since otherwise stuff that shouldn't
 # be deleted or overwritten might indeed be deleted or overwritten!
-deploy_remote:
+deploy_remote_server: 5118117@sftp.dc2.gpaas.net
+deploy_remote_path: /lamp0/web/vhosts/harrisonly.com/htdocs/food

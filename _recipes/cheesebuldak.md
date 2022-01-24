@@ -1,15 +1,12 @@
 ---
 title: Cheese Buldak
-original_title: 치즈불닭
-category: Korean Food
-description: Super-spicy chicken tempered with loads of cheese and fresh spring onions. Serve with rice and a light salad – or, better yet, an assortment of side dishes.
+category: Asian
+description: Super-spicy Korean chicken tempered with loads of cheese and fresh spring onions.
 image: cheesebuldak.jpg
 size: 2-3 servings
 time: 1 hour
-author: Maangchi
 source: https://www.youtube.com/watch?v=T9uI1-6Ac6A
 spicy: ✓
-favorite: ✓
 ---
 
 * `2 tbsp` chili flakes (gochugaru)

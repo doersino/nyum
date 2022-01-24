@@ -27,6 +27,11 @@
                 <script src="assets/search.js"></script>
             </aside>
         </header>
+        <section>
+            ${for(categories)}
+                <a href="${it.category_faux_urlencoded}.html">${it.category}</a>&nbsp;&nbsp;
+            ${endfor}
+        </section>
         ${for(categories)}
             <section>
                 <h2><a href="${it.category_faux_urlencoded}.html">${it.category}</a></h2>
@@ -37,5 +42,8 @@
         ${endfor}
         ${footer.partial.html()}
     </main>
+    <a href="javascript:" id="return-to-top"><i><img src="assets/tabler-icons/tabler-icon-arrow-bar-to-up.svg" alt="Up"></i></a>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='assets/scroll.js'></script>
 </body>
 </html>

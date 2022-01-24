@@ -70,7 +70,7 @@ for FILE in _recipes/*.md; do
         --metadata-file config.yaml \
         --metadata basename="$(basename "$FILE" .md)" \
         --template _templates/technical/category.template.txt \
-        -t html -o "_temp/$(basename "$FILE" .md).category.txt"
+        -t html --wrap=none -o "_temp/$(basename "$FILE" .md).category.txt"
 
     # extract metadata, set htmlfile in order to link to it on the index page
     x pandoc "$FILE" \

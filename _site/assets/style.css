@@ -20,7 +20,7 @@
 
     --images-on-index-size: 5em;
 
-    --step-number-column-width: 3em;
+    --step-number-column-width: 0em;
     --ingredient-quantity-column-width: 5em;
     --ingredient-name-column-width: 10em;
 }
@@ -342,7 +342,6 @@ hr {
 }
 .recipe hr {
     counter-increment: step;
-    margin-bottom: -2.4em;
     clear: right;  /* fix for long descriptions pushing across the hr in firefox */
 }
 .recipe hr + hr {  /* in case there is a leading hr in the document in addition to the hardcoded one */
@@ -351,7 +350,7 @@ hr {
 .recipe hr:first-child {  /* hide first hr's line, but keep the step number */
     border-color: transparent;
 }
-.recipe hr::after {
+/* .recipe hr::after {
     content: counter(step);
     display: inline-block;
     color: var(--background);
@@ -362,7 +361,7 @@ hr {
     border-radius: 0.2em;
     font-size: 0.8em;
     margin-top: 1.1rem;
-}
+} */
 .recipe hr + ul {
     display: inline-block;
     margin-left: var(--step-number-column-width);
@@ -468,4 +467,46 @@ footer .updatededit a {
     footer {
         display: none;
     }
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(73, 122, 255, .8);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 13px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgb(73, 122, 255);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
 }
