@@ -15,14 +15,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install and Build 🔧
+      - name: Install 🔧
         run: |
           wget -O pandoc.deb https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-1-amd64.deb
           sudo dpkg -i pandoc.deb
-          bash build.sh
+          sudo apt install lftp
+
+      - name: Build 🏗️
+        run: bash build.sh
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-          branch: gh-pages  # The branch the action should deploy to. Has to be specified in the repo's settings.
-          folder: _site     # The folder the action should deploy from.
+        env:
+            UPLOAD: ${{ secrets.UPLOAD }}
+        run: bash deploy.sh 

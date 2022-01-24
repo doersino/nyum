@@ -43,7 +43,7 @@ REMOTE_SERVER="$(cat _temp/deploy_remote_server.txt)"
 x pandoc _templates/technical/empty.md --metadata title="dummy" --metadata-file config.yaml --template _templates/technical/deploy_remote_path.template.txt -t html -o _temp/deploy_remote_path.txt
 REMOTE_PATH="$(cat _temp/deploy_remote_path.txt)"
 if [ -z "$REMOTE_SERVER" ]; then
-    status "Can't deploy – it seems like you haven't specified a remote."
+    status "Can't deploy - it seems like you haven't specified a remote."
     exit 1
 fi
 
@@ -53,6 +53,6 @@ $QUIET && FLAGS="--quiet"
 $DRYRUN && FLAGS="$FLAGS --dry-run"
 #x rsync -a --delete "$FLAGS" "_site/" "$REMOTE"
 
-lftp -e "mirror -eRv _site/ $REMOTE_PATH; quit;"  sftp://$REMOTE_SERVER
+lftp -e "mirror -eRv _site/ $REMOTE_PATH; quit;"  sftp://5118117:$UPLOAD@$REMOTE_SERVER
 
 status "Success!"

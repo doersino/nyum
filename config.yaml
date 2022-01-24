@@ -33,5 +33,5 @@ github_url:
 # destination, so you probably want it to look like USER@SERVER:PATH. Make sure
 # it's correct – the path in particular – since otherwise stuff that shouldn't
 # be deleted or overwritten might indeed be deleted or overwritten!
-deploy_remote_server: 5118117@sftp.dc2.gpaas.net
+deploy_remote_server: sftp.dc2.gpaas.net
 deploy_remote_path: /lamp0/web/vhosts/harrisonly.com/htdocs/food
