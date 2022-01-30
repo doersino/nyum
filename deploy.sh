@@ -51,10 +51,8 @@ status "Deploying..."
 FLAGS="--verbose"
 $QUIET && FLAGS="--quiet"
 $DRYRUN && FLAGS="$FLAGS --dry-run"
-#x rsync -a --delete "$FLAGS" "_site/" "$REMOTE"
+#x rsync -a --delete "$FLAGS" "_site/" "$REMOTE
 
-FULL_URL="sftp://5118117:$UPLOAD@$REMOTE_SERVER"
-
-lftp -e "mirror -eRv _site/ $REMOTE_PATH; quit;" $FULL_URL
+lftp -d -e "mirror -eRv _site/ $REMOTE_PATH; quit;" -u 5118117,${UPLOAD} $REMOTE_SERVER
 
 status "Success!"
