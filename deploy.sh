@@ -53,6 +53,8 @@ $QUIET && FLAGS="--quiet"
 $DRYRUN && FLAGS="$FLAGS --dry-run"
 #x rsync -a --delete "$FLAGS" "_site/" "$REMOTE"
 
-x lftp -e "mirror -eRv _site/ $REMOTE_PATH; quit;"  sftp://5118117:$UPLOAD@$REMOTE_SERVER
+FULL_URL="sftp://5118117:$UPLOAD@$REMOTE_SERVER"
+
+lftp -e "mirror -eRv _site/ $REMOTE_PATH; quit;" $FULL_URL
 
 status "Success!"

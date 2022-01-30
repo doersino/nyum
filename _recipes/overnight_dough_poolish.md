@@ -15,7 +15,7 @@ veggie: y
 
 * `300ml` room temp Water
 * `5g` dry yeast 
-* `5g (1 tbsp`) Honey
+* `5g (1 tbsp)` Honey
 * `300g` Flour - 00 or plain
 
 > In a container with a lid add water, yeast and honey and stir together
@@ -28,10 +28,10 @@ veggie: y
 
 ---
 
-* `700ml room temp water
-* `40g salt
-* `1250g flour - 00 or plain
-* `Semolina or cornmeal to dust
+* `700ml` room temp water
+* `40g` salt
+* `1250g` flour - 00 or plain
+* Semolina or cornmeal to dust
 
 > Pour the water in a large bowl and add the poolish
 >
@@ -65,13 +65,13 @@ veggie: y
 
 ---
 
-* `2 cups passata or 1 can of blitzed plum tomatoes
+* `2 cups` passata or 1 can of blitzed plum tomatoes
 * `1 tsp` salt
 * `1 tsp` olive oil
-* `Fresh mozzarella
-* `Fresh basil
-* `Other toppings e.g. olives, salami, prosciutto, 
-* `1/2 cup of semolina or cornmeal
+* Fresh mozzarella
+* Fresh basil
+* Other toppings e.g. olives, salami, prosciutto, 
+* `1/2 cup` of semolina or cornmeal
  
 > Put pizza stone in the oven at max temp for 1 hour
 >
