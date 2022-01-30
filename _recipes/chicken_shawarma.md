@@ -2,7 +2,7 @@
 title: Chicken Shawarma and Garlic Sauce
 category: Middle Eastern
 description: Rotisserie of oven baked for great chicken kebabs
-image: chicken_shawarma.jpg
+image: chicken_shawarma.png
 
 ---
 
