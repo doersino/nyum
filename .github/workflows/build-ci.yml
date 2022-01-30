@@ -18,8 +18,8 @@ jobs:
       - name: Install 🔧
         run: |
           wget -O pandoc.deb https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-1-amd64.deb
-          sudo dpkg -i pandoc.deb
-          sudo apt install lftp
+          wget -O lftp.deb http://archive.ubuntu.com/ubuntu/pool/main/l/lftp/lftp_4.8.4-2build3_amd64.deb
+          sudo dpkg -i pandoc.deb lftp.deb
 
       - name: Build 🏗️
         run: bash build.sh
