@@ -71,7 +71,7 @@ veggie: y
 * Fresh mozzarella
 * Fresh basil
 * Other toppings e.g. olives, salami, prosciutto, 
-* `1/2 cup` of semolina or cornmeal
+* `1/2 cup` semolina or cornmeal
  
 > Put pizza stone in the oven at max temp for 1 hour
 >

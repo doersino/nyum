@@ -13,7 +13,7 @@ veggie: Y
 * `3 tbsp` melted butter, room temperature
 * `2 tbsp` sugar
 * `4 cups` all-purpose flour, divided
-* `1` large egg, room temperature
+* `1 large`  egg, room temperature
 * `1 1/2 tsp` garlic salt
 * `1/4 cup` melted butter for basting rolls
  

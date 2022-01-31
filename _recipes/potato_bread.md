@@ -6,15 +6,15 @@ veggie: Y
 
 --- 
 
-* `400g` All Purpose Flour
-* `1 tsp` Salt
-* `30g` Sugar
-* `100g` Potatoes cooked and mashed
-* `2` Egg Yolks
-* `120g` Warm Milk
-* `100g` Warm Water ( to add to the milk) 
-* `7g` Dry Yeast 
-* `80g` Soft Butter 
+* `400g` all purpose flour
+* `1 tsp` salt
+* `30g` sugar
+* `100g` potatoes cooked and mashed
+* `2` egg yolks
+* `120g` warm milk
+* `100g` warm water ( to add to the milk) 
+* `7g` dry yeast 
+* `80g` soft butter 
 
 > Flour, sugar and salt in mixer with dough hook and mix
 >
@@ -32,4 +32,4 @@ veggie: Y
 >
 > Place on an paper lined baking tray, cover and let rise for 30 mins
 >
-> Bake in preheated over at 180degC for 20 mins or until pale golden.
+> Bake in preheated over at 180C for 20 mins or until pale golden.

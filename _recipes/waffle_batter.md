@@ -14,7 +14,7 @@ sweet: y
 * `1/4 tsp` salt
 * `190ml` milk
 * `1 tbsp` lemon juice
-* `2` large eggs
+* `2 large` eggs
 * `1/2 tsp` vanilla extract
 * `110g` butter, melted
  

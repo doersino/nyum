@@ -6,9 +6,9 @@ veggie: Y
 
 --- 
 
-* `2` large potatoes
+* `2 large` potatoes
 * `1` egg, beaten
-* `1 tbsp` of white flour
+* `1 tbsp` white flour
 * Coarse salt (sea or kosher)
 * Freshly ground black pepper
 * `2 tbsp` unsalted butter
@@ -32,13 +32,12 @@ veggie: Y
 >
 > Add the coriander powder, turmeric powder, and garam masala to the bowl, stirring to incorporate it into the potatoes.
 >
-> Add one tbsp` of white flour and stir
+> Add one tbsp` white flour and stir
 >
-> Melt 2 tbsp`s of butter in non-stick pan or cast-iron skillet.
+> Melt 2 tbsps of butter in non-stick pan or cast-iron skillet.
 >
 > Form potatoes into balls and squeeze out any extra liquid. Form into flattened patties about 3 inches across and place into pan.
 >
 > Cook over medium high heat until crispy and golden brown. About 4-5 minutes each side.
 >
-> Combine a half a cup of sour cream with turmeric, garam masala, and chili powder until mixed thoroughly. \\
-
+> Combine a half a cup of sour cream with turmeric, garam masala, and chili powder until mixed thoroughly.

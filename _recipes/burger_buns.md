@@ -21,7 +21,7 @@ veggie: Y
 >
 > Cut the dough into 8 pieces about 80g each and form balls. Place the balls seam side down on a parchment paper lined baking sheet and cover with plastic to prevent drying. Let proof for about 30 minutes in a warm room. The balls will increase in size by about 50% or so. If not, let them proof longer.
 >
-> Preheat the oven to 180degC fan/200degC
+> Preheat the oven to 180C fan/200C
 >
 > Remove the plastic wrap, score the buns, if desired, brush the milk over each bun, sprinkle sesame seeds and/or poppy seeds.
 >

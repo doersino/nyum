@@ -31,7 +31,7 @@ veggie: Y
 >
 > Drizzle olive oil into a 9x13 baking pan until the bottom is covered. After the last stretch and fold, turn the focaccia dough into the pan and gently work it to the edges. Note: If the dough is springing back from the edges, cover and let rest for 15-20 minutes before gently working to the edges.
 >
-> Cover the pan and let the focaccia proof for 45-60 minutes. At the end of proofing, the dough should be well risen and puffy with gas bubbles. Preheat the oven to 210degC fan.
+> Cover the pan and let the focaccia proof for 45-60 minutes. At the end of proofing, the dough should be well risen and puffy with gas bubbles. Preheat the oven to 210C fan.
 >
 > Dimple the proofed dough with wet fingers by gently pushing to the bottom of the pan, but do not accidentally go through the dough. For me, I like lots of dimples and run over the dough 2-3 times.
 
@@ -46,4 +46,4 @@ veggie: Y
 >
 > Sprinkle flaky salt and fresh herbs over the top. If using other toppings like grape tomatoes, or olives, add them now too and gently press into the dough. Note: This turns into a great pizza with sauce, cheese and anything else you may have in the fridge.
 >
-> Place on the middle rack of the 210degC fan oven and bake for 20-25 minutes until golden on top. Let rest under a cloth on a wire rack for 5 minutes before slicing into hunks of focaccia
+> Place on the middle rack of the 210C fan oven and bake for 20-25 minutes until golden on top. Let rest under a cloth on a wire rack for 5 minutes before slicing into hunks of focaccia

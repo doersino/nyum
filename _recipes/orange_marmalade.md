@@ -6,9 +6,9 @@ veggie: y
 sweet: y 
 
 --- 
-* `4` large seedless oranges
+* `4 large`  seedless oranges
 * `2` lemons
-* `8` cups sugar
+* `8 cups` sugar
  
 > Cut the oranges and lemons in half crosswise, then into very thin half-moon slices. (If you have a mandoline, this will be quite fast.) Discard any seeds.
 >

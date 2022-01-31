@@ -50,9 +50,9 @@ image: roast_turkey_-_dry_brine.png
 >
 > Don't open the oven door until the cooking time is up.
 >
-> After 1 1/2 hours, or when the breast temp is 70 degC, remove from the oven.
+> After 1 1/2 hours, or when the breast temp is 70 C, remove from the oven.
 >
-> To test whether the turkey is cooked, insert meat thermometer into the thickest piece of thigh. It should be about 80 degC.
+> To test whether the turkey is cooked, insert meat thermometer into the thickest piece of thigh. It should be about 80 C.
 >
 > If it is not hot enough, cook it for another 20 minutes and test again. Leave the turkey to rest in a warm place, covered with a foil tent for at least 15 minutes before carving.
 >

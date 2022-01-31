@@ -7,7 +7,7 @@ veggie: y
 
 --- 
 * `120g` plain flour
-* `2` large eggs
+* `2 large`  eggs
 * `300ml` milk
 * `1 tbsp` melted butter plus a little extra for frying
 * lemon wedges & caster sugar to serve

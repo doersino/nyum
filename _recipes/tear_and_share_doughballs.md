@@ -20,7 +20,7 @@ veggie: Y
 >
 > Knead for 10 minutes by hand or 5 minutes by machine. Cover and leave in a warm, but not hot, place for around 30 minutes. This recipe doesn't require the dough to double in size.
 >
-> Preheat oven to 200degC or Gas Mark 5
+> Preheat oven to 200C or Gas Mark 5
 >
 > Pinch off pieces of dough and roll between your palms to about 1 inch in diameter.
 >

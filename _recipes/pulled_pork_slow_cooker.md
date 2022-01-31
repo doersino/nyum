@@ -5,18 +5,18 @@ description: Great pulled pork in the slow cooker
 favorite: Y
 
 --- 
-* `2` medium yellow onions, thinly sliced
-* `4` medium garlic cloves, thinly sliced
-* `1` cup chicken stock or low-sodium chicken broth
+* `2 medium` yellow onions, thinly sliced
+* `4 medium` garlic cloves, thinly sliced
+* `1 cup` chicken stock or low-sodium chicken broth
 * `1 tbsp` packed dark brown sugar
 * `1/2 tsp` chilli powder
-* `2 tsp`s kosher salt, plus more as needed
-* `2 tsp`s ground black or white pepper
+* `2 tsp` kosher salt, plus more as needed
+* `2 tsp` ground black or white pepper
 * `1 tsp` paprika
 * `1 tsp` thyme
 * `2-2.5kg` boneless or bone-in pork shoulder (also known as pork butt), twine or netting removed
 * `2/3 cup` ketchup
-* A few drops of liquid smoke (optional)
+* `few drops` liquid smoke (optional)
  
 > Place the onions and garlic in an even layer in the slow cooker. Pour in the stock or broth and liquid smoke.
 >

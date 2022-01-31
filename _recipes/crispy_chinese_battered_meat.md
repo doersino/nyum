@@ -9,12 +9,14 @@ description: A crispy batter for chinese meat dishes
 
 ---
 
-* `5 mm` slices of chicken or pork
+* `400g` chicken or pork
 * `1 tsp` cornflour
 * `1/2 tsp` sugar
 * `1 tsp` light soy sauce or Shaoxing wine
 
-> mix marinate and meat thoroughly and set aside for 10 mins
+> Slice meat thinly into 5mm slices - freezing for 30 mins will help
+>
+> Mix marinate and meat thoroughly and set aside for 10 mins
 
 ## To Fry
 

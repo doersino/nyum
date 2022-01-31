@@ -9,12 +9,12 @@ veggie: y
 * `1/2` onion , chopped
 * `6` cloves
 * `6` peppercorns
-* `2` garlic cloves
+* `2 cloves` garlic
 * `1` bay leaf
 * `3` thyme sprigs
 * `50g` white breadcrumbs
 * `4 tbsp` single cream
-* pinch nutmeg , freshly grated
+* `pinch` nutmeg , freshly grated
  
 > Simmer the milk, butter, onion, cloves, peppercorns, garlic and herbs in a pan for 20 mins. 
 >

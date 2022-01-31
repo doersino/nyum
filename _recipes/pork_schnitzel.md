@@ -6,12 +6,12 @@ category: European
 * `4` boneless pork loin chops (about 5 to 6 ounces each)
 * `1 1/2 cups` all-purpose flour
 * Kosher salt and freshly ground black pepper
-* `2` large eggs
+* `2 large`  eggs
 * `1/2 cup` milk
 * `4 cups` plain dried bread crumbs
 * `2 tbsp` extra-virgin olive oil
 * `2 tbsp` butter
-* `1` sprig thyme
+* `1 sprig` thyme
 * Lemon wedges
  
 > Begin by placing each chop between 2 sheets of plastic wrap and gently pounding them out with the flat side of a meat tenderizer until they are an even 1/4-inch thick.

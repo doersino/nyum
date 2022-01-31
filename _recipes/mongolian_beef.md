@@ -13,7 +13,7 @@ description: Stir fried beef with a sweet sticky sauce
 * `3/4 cup` dark brown sugar
 * `500g` flank steak or sirloin steak
 * `1/4 cup` cornstarch
-* `2` large spring onions
+* `2 large`  spring onions
 * Vegetable oil, for frying (about 1/2 cup)
 
 > Heat up a saucepan or work to medium heat (the oil should not too hot) with about 1 tablespoon of oil, and then add ginger and garlic sauté for about 1-2 minutes making sure the garlic does not burn.

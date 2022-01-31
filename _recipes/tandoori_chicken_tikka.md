@@ -9,15 +9,15 @@ spicy: y
 * `450g` skinless boneless chicken thighs cut into bite size pieces
 * `2 tbsp` thick yoghurt/ Greek yoghurt
 * `2 tsp` chickpea flour/ gram flour
-* `4` cloves garlic
+* `4 cloves` garlic
 * `1"` piece ginger peeled
 * `1` green chilli
-* `1 tsp` mile paprika
+* `1 tsp` paprika
 * `1/2 tsp` chilli powder (or a little more if you’d like it spicy)
 * `1/2 tsp` garam masala powder
 * `1 tsp` coriander powder
-* Pinch cinnamon powder
-* Pinch of saffron, crushed
+* `pinch` cinnamon powder
+* `pinch` saffron, crushed
 * Salt to taste
 * Butter for basting
 

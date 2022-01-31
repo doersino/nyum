@@ -7,11 +7,11 @@ favorite: Y
 veggie: Y
 
 --- 
-* `2 cups` Plain Flour
-* `1 tsp` Kosher salt
-* `2 cups` Milk (room temperature)
-* `4` Large Eggs (room temperature)
-* `1/2 cup` Beef Pan Drippings or Vegetable Oil
+* `2 cups` plain flour
+* `1 tsp` kosher salt
+* `2 cups` milk (room temperature)
+* `4 large`  eggs (room temperature)
+* `1/2 cup` beef pan drippings or vegetable oil
  
 > Preheat oven to fan 220°C/gas 8.
 >

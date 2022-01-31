@@ -7,7 +7,7 @@ veggie: y
 --- 
 * `2` Fuji apples, diced into 1cm cubes
 * Juice of 1/2 lemon
-* `2` stalks celery, diced
+* `2 stalks` celery, diced
 * `1/2 cup` coarsely chopped walnuts
 * `1/3 cup` golden raisins
 * `1/4 cup` reduced-calorie mayonnaise

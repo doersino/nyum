@@ -5,13 +5,13 @@ category: Asian
 --- 
 
 * `6` boneless chicken thighs
-* `1 tbsp` of cornflour in 1/4 cup of cold water
+* `1 tbsp` cornflour in 1/4 cup of cold water
 * `3 tbsp` soy sauce
 * cornflour to coat
 * `1 tsp` ginger, grated
-* `2` cloves garlic, grated
+* `2 cloves` garlic, grated
 * `2 tbsp` soy sauce
-* `1 tsp` of cornflour in 1/4 cup of cold water
+* `1 tsp` cornflour in 1/4 cup of cold water
 * `1 cup` orange juice
 * `2 tsp` rice wine vinegar
 * `1 tbsp` soft brown sugar

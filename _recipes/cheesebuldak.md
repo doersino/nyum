@@ -11,9 +11,9 @@ spicy: ✓
 
 * `2 tbsp` chili flakes (gochugaru)
 * `1 tbsp` gochujang
-* `½-⅔ tbsp` soy sauce
+* `1/2-2/3 tbsp` soy sauce
 * `1 tbsp` cooking oil
-* `¼ tsp` pepper
+* `1/4 tsp` pepper
 * `2-3 tbsp` rice or corn syrup
 * `2 tbsp` water
 
@@ -29,13 +29,13 @@ spicy: ✓
 ---
 
 * `1` spring onion
-* `120-200 g` dry mozzarella
+* `120-200g` dry mozzarella
 
 > Slice spring onion into very thin slices. Chop cheese into cubes small enough to melt and brown after a few minutes under the broiler (pre-shredded cheese is fine, too). Keep ready in separate bowls.
 
 ---
 
-* `400 g` chicken breast
+* `400g` chicken breast
 
 > Cut meat into `2-3 cm` cubes and mix into the marinade.
 

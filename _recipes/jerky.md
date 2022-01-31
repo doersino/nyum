@@ -15,8 +15,8 @@ description: Simple smokey jerky using the dehydrator
 * `2 to 3 tsp` Red Pepper flake
 * `1 to 3 tsp` Ground Red Pepper
 * `10 to 20` grinds fresh Black Pepper
-* `1 inch` of fresh Ginger, sliced thin
-* `5 to 7` cloves Garlic, crushed to release oil
+* `1 inch` fresh Ginger, sliced thin
+* `5 to 7 cloves` garlic, crushed to release oil
  
 > All of these ingredient amounts can be adjusted specially the hot and sweet ingredients. Substitute brown sugar with white sugar, maple syrup, or honey, or simply add any of these ingredients for extra sweetness (if added, adjust hot ingredients accordingly).
 >
@@ -24,7 +24,7 @@ description: Simple smokey jerky using the dehydrator
 >
 > Marinate thinly sliced beef for not less than 3 hours. I usually do it over night.
 >
-> Dry in dehydrator at 70degC or very low oven for 6-8 hours.
+> Dry in dehydrator at 70C or very low oven for 6-8 hours.
 >
 > Enjoy!
 

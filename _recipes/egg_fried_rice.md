@@ -12,8 +12,8 @@ veggie: y
 * `1/4 tsp` msg
 * `2 tbsp` vegetable oil
 * `2 cloves` garlic, finely chopped
-* `1/2` small onion, finely sliced
-* `large pinch` of sugar
+* `1/2 small`  onion, finely sliced
+* `large pinch` sugar
 * `1/2 cup` frozen peas
 * `2` eggs, beaten
 

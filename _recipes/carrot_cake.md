@@ -8,7 +8,7 @@ sweet: y
 --- 
 * `175g` light brown sugar
 * `175 ml` sunflower oil
-* `3` large eggs, lightly beaten
+* `3 large`  eggs, lightly beaten
 * `140g` grated carrot (about 3 medium)
 * `100g` walnuts, chopped
 * grated zest of 1 large orange

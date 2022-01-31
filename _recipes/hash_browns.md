@@ -4,8 +4,8 @@ category: Sides
 veggie: y
 
 --- 
-* `3` medium potatoes, peeled
-* `1/2` large onion
+* `3 medium` potatoes, peeled
+* `1/2 large` onion
 * `1` egg, beaten
 * Salt and pepper
 * Oil for frying

@@ -8,7 +8,7 @@ description: Simple weeknight staple
 * `1 large` onion, chopped
 * `4 cloves` garlic, minced
 * `1/2 cup` (about 4 inches) chorizo, chopped
-* `750 g` lean mince
+* `750g` lean mince
 * `1 can` chopped tomatoes
 * `1 cup` red wine
 * `5 to 6 leaves` fresh basil, torn

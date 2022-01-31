@@ -10,7 +10,7 @@ veggie: Y
 * `2 tsp` salt
 * `1/2 tsp` pepper
 * `1 1/2 cups` Desperados Tequila beer
-* `2` large onions
+* `2 large`  onions
 * Vegetable oil, for frying
 * Spicy ketchup, for dipping (optional)
 

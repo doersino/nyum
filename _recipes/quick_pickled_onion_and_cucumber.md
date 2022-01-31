@@ -11,7 +11,7 @@ veggie: y
 * `1/2 tsp` salt
 * `5-6` whole peppercorns
 * `1` bay leaf
-* `1` clove garlic crushed
+* `1 clove` garlic crushed
 * `1/4` cucumber, sliced
 * `1/2` red or white onion, sliced
  

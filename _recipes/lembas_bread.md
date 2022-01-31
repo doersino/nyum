@@ -17,8 +17,7 @@ sweet: y
 * `1 cup` milk
 * `1/2 tsp` vanilla
 
-
-> Preheat oven to 220 degrees Celsius (425 degrees Fahrenheit).
+> Preheat oven to 220C.
 >
 > Mix the flour, baking powder and salt into a large bowl.
 >

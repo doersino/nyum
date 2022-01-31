@@ -8,8 +8,8 @@ description: Fall-apart tender roast pork
 * sea salt & freshly ground black pepper
 * `2` red onions, halved
 * `2` carrots, peeled and halved lengthways
-* `2` sticks celery, halved
-* `1` bulb garlic, skin on, broken into cloves
+* `2 sticks` celery, halved
+* `1 bulb` garlic, skin on, broken into cloves
 * `6 to 8` bay leaves
 * `600 ml` water or organic vegetable stock
  
@@ -19,7 +19,7 @@ description: Fall-apart tender roast pork
 >
 > Brush any excess salt off the surface then turn it over. Season the underside of the meat with a few pinches of salt and pepper. Place your pork, skin-side up, in a roasting tray and pop in the preheated oven. Roast for 30 minutes, until the skin of the pork has started to puff up and you can see it turning into crackling. At this point, turn the heat down to 170°C/325°F/gas 3, cover the pork snugly with a double layer of tinfoil, pop back in the oven and roast for a further 4 and a half hours.
 >
-> Take out of the oven, take the foil off, and baste the meat with the fat in the bottom of the tray. Carefully lift the pork up and transfer to a chopping board. Spoon all but a couple of tbsp`s of fat out (save it for roast potatoes!).
+> Take out of the oven, take the foil off, and baste the meat with the fat in the bottom of the tray. Carefully lift the pork up and transfer to a chopping board. Spoon all but a couple of tbsps of fat out (save it for roast potatoes!).
 >
 > Add all the veg, garlic and bay leaves to the tray and stir them into the fat. Place the pork back on top of everything and return to the stove without the foil to roast for another hour. By this time the meat should be meltingly soft and tender.
 >

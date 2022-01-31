@@ -6,14 +6,14 @@ veggie: y
 
 --- 
 
-* `6` medium cloves of garlic (or 3 big ones)
+* `6 cloves` garlic
 * `8cm` fresh ginger
 * `2 tsp` cumin seeds
 * `2 tsp` garam masala
 * `1 tsp` coriander seeds
 * `1 tsp` Kashmiri chilli
 * `1 tsp` crushed black pepper
-* `½ tsp` salt
+* `1/2 tsp` salt
 * `2 tbsp` melted ghee or oil
 * `2 tbsp` tomato purée
 * `2` fresh green chillies
@@ -29,7 +29,7 @@ veggie: y
 >
 > This recipe will make enough paste for eight portions of curry — the equivalent to half a jar of Patak’s curry paste.
 >
-> Store in a sealed glass jar and refrigerate. You can freeze the paste, but it will lose some flavour. To extend the life of the paste in the fridge, make sure the jar you use is spotless clean and try layering a tbsp` of oil on top of the paste once in the jar. This creates a seal between the paste and the air.
+> Store in a sealed glass jar and refrigerate. You can freeze the paste, but it will lose some flavour. To extend the life of the paste in the fridge, make sure the jar you use is spotless clean and try layering a tbsp of oil on top of the paste once in the jar. This creates a seal between the paste and the air.
 >
 > On the day you use the paste, add the required amount right after cooking the onions and before cooking the meat, frying for about five minutes.
 

@@ -7,7 +7,7 @@ spicy: y
 --- 
 * `2` onions finely sliced
 * `1 1/2 tsp` ginger
-* `3` cloves garlic minced
+* `3 cloves` garlic minced
 * `1 tsp` turmeric
 * `1/2 tsp` white pepper
 * `1/2 tsp` fenugreek (methi)

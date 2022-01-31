@@ -11,7 +11,7 @@ sweet: y
 * `500g` self raising flour
 * `7g` baking powder
 * `120g` margarine or soft butter
-* pinch of salt  
+* `pinch` salt  
 * `90g` caster sugar
 * `150ml` milk
 * `1` egg
@@ -47,6 +47,6 @@ sweet: y
 >
 > Mix egg and splash of milk and brush tops of scones
 >
-> Place on middle shelf in preheated 200degC/180 fan oven for 15-17 mins
+> Place on middle shelf in preheated 200C/180 fan oven for 15-17 mins
 >
 > Cool on a wire rack covered in a tea towel

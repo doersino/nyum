@@ -7,8 +7,8 @@ spicy: y
 
 --- 
 
-* `2` cloves of garlic
-* Pinch chilli flakes
+* `2 cloves` garlic
+* `pinch` chilli flakes
 * `5cm` fresh ginger
 * `2` onions
 * `1` green bell pepper
@@ -21,13 +21,13 @@ spicy: y
 * `2 tsp` ground coriander
 * `2 cans` chopped tomatoes
 * `100g` natural yoghurt , plus extra to serve
-* `1/2 a bunch` of fresh coriander
+* `1/2 a bunch` fresh coriander
 
 > Finely grate the garlic and ginger
 >
 > Coarsely chop the onions and the green pepper
 >
-> Add a couple of tbsp`s of oil to a large hot non-stick pan over medium heat and add the cinnamon, bay and cardamom.
+> Add a couple of tbsps of oil to a large hot non-stick pan over medium heat and add the cinnamon, bay and cardamom.
 >
 > Stir for 1 minute, then add the onions and the pepper
 >

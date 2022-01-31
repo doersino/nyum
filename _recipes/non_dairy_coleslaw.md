@@ -22,11 +22,11 @@ veggie: y
 
 ---
 
-* `2 tbsp`s toasted sesame oil
-* `2-3 tbsp`s apple cider vinegar or red wine vinegar
-* `2 tbsp`s pure maple syrup
-* `1` clove garlic, minced
-* pinch chilli powder
+* `2 tbsp` toasted sesame oil
+* `2-3 tbsp` apple cider vinegar or red wine vinegar
+* `2 tbsp` pure maple syrup
+* `1 clove` garlic, minced
+* `pinch` chilli powder
 * `1/2 tsp` salt, plus more if necessary
 * Freshly cracked black pepper
  

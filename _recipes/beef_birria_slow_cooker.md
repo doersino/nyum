@@ -16,7 +16,7 @@ spicy: y
 * `2` dried ancho chiles
 * `2` chipotle in adobo
 * `350ml` beef stock
-* `1` can chopped tomatoes
+* `1 can` chopped tomatoes
 * `2 tsp` Mexican oregano
 * `1 tsp` dried thyme
 * `1 tsp` cumin
@@ -25,8 +25,8 @@ spicy: y
 * `1/8 tsp` ground clove (optional)
 * `2` bay leaves
 * salt and pepper to your taste
-* `1/2` medium onion 
-* `6 to 7` cloves garlic
+* `1/2 medium` onion 
+* `6 to 7 cloves` garlic
  
 > Deseed and stem the dried chiles.
 >

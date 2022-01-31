@@ -19,7 +19,7 @@ sweet: y
 >
 > Pour the water into the pan and stir in the powdered sugar until the sugar is completely absorbed. 
 >
-> When the sugar reaches 125 degC and has large, slow popping bubbles, reduce the heat to low
+> When the sugar reaches 125 C and has large, slow popping bubbles, reduce the heat to low
 >
 > Add the salt, cinnamon (optional) and almonds and stir until coated
 >

@@ -12,7 +12,7 @@ veggie: y
 * `2 tbsp` light soy sauce
 * `1 1/2 tbsp` ketchup
 * `1 tsp` ground ginger
-* pinch dried red chilli (optional)
+* `pinch` dried red chilli (optional)
 
 > In a saucepan combine all ingredients. Bring to a simmer, whisking to keep smooth.
 >

@@ -11,14 +11,14 @@ favorite: Y
 
 ---
 
-* `750 g` beef mince
-* `1` large onion
-* `4` cloves garlic
+* `750g` beef mince
+* `1 large`  onion
+* `4 cloves` garlic
 * `3` bay leaves
 * `1 cup` red wine
 * `1 can` chopped tomatoes
 * `1 carton` passata
-* bunch fresh basil
+* `bunch` fresh basil
 * `2 tsp` oregano
  
 > Sweat the onions and garlic in a little oil over a medium heat
@@ -37,10 +37,10 @@ favorite: Y
 
 ---
 
-* `80 g` unsalted butter
-* `80 g` plain flour
-* `1` litre milk
-* `100 g` parmesan
+* `80g` unsalted butter
+* `80g` plain flour
+* `1 litre` milk
+* `100g` parmesan
 * `1/4 tsp` grated nutmeg
 * `2` bay leaves
 
@@ -62,8 +62,8 @@ favorite: Y
 
 ---
 
-* `500 g` fresh lasagne sheets 
-* `200 g` fresh mozarella
+* `500g` fresh lasagne sheets 
+* `200g` fresh mozarella
 * grated parmesan
 
 > Layer the lasagne dish alternately with meat sauce, pasta sheets, bechamel sauce and cheese

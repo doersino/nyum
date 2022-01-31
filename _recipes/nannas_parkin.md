@@ -21,7 +21,7 @@ sweet: y
 >
 > Grease a 9in square cake tin and pour in.
 >
-> Bung in oven on Gas 3/160 degC/140 degC fan for 90 mins
+> Bung in oven on Gas 3/160 C/140 C fan for 90 mins
 >
 > Store in a sealed container. Wait at least 3 days to eat cos it get's better with time.
 

@@ -7,7 +7,7 @@ description: Simple Mexican enchiladas
 * `750g` chicken breast or thighs
 * `1/2` each red & green pepper, sliced
 * `1` onion sliced
-* `2` cloves garlic chopped
+* `2 cloves` garlic chopped
 * `1` carton passata
 * Cumin, chili, paprika, oregano spices to season
 * Flour or corn tortillas

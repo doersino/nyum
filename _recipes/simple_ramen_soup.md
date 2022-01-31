@@ -8,11 +8,11 @@ image: simple_ramen_soup.jpg
 * `1 pack` cheap ramen noodles - get good ones like tonkotsu or sesame
 * `1 tbsp` miso paste
 * Green veg e.g. pak choi, cabbage cut in ribbons, mange tout peas, tenderstem broccoli
-* Thin cut onion e.g. spring, red
-* A few bamboo shoots or sliced water chestnuts
-* Thin sliced beef or pork, or pre cooked prawns
-* `1` clove garlic, thin sliced
-* Small piece ginger thin sliced
+* `Thin cut` onion e.g. spring, red
+* `A few` bamboo shoots or sliced water chestnuts
+* `Thin sliced` beef or pork, or pre cooked prawns
+* `1 clove` garlic, thin sliced
+* `Small piece` ginger thin sliced
 * `1` egg
 
 > Gently fry garlic and ginger in 2 tsp sesame oil till just browning

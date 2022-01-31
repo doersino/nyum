@@ -6,7 +6,7 @@ veggie: y
 --- 
 
 * `4` ripe tomatoes
-* `4` garlic cloves
+* `4 cloves` garlic
 * `2 1/2 tsp` lime juice
 * `2 tsp` fresh coriander leaf
 * `1/2 tsp` salt (or to taste)

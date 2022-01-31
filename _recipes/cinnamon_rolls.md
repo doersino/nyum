@@ -16,13 +16,13 @@ sweet: y
 * `2 cups` warm milk
 * `1/2 cup` melted butter
 * `100g/1/2 cup` sugar
-* `1tsp` yeast
+* `1 tsp` yeast
 * `450g/4 cups` flour plus extra for dusting
-* `1tsp` baking powder
+* `1 tsp` baking powder
 * `2 tsp` salt
 * `115g/3/4 cup` softened butter
 * `135g/3/4 cup` soft light brown sugar
-* `2tbsp` cinnamon
+* `2 tbsp` cinnamon
 
 > Mix milk butter and sugar in a bowl and sprinkle with the yeast. Leave for a few mins to bloom.
 >
@@ -42,16 +42,16 @@ sweet: y
 >
 > Cover with plastic wrap and rest for 30 mins.
 >
-> Bake at 180degC for 25-30 mins and golden brown.
+> Bake at 180C for 25-30 mins and golden brown.
 
 ## For coating
 
 ---
 
 * `120g` soft cheese
-* `2tbsp` melted butter
-* `2tbsp` milk
-* `1tsp` vanilla extract
+* `2 tbsp` melted butter
+* `2 tbsp` milk
+* `1 tsp` vanilla extract
 * `100g/1cup` icing sugar
 
 > Meantime mix the coating ingredients except the icing sugar until well combined. Blend in the icing sugar.

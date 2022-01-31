@@ -9,7 +9,7 @@ sweet: y
 * `225g` unsalted butter, melted and cooled for 5 minutes
 * `1 1/2 cups` granulated sugar + additional 1/2 cup sugar to roll
 * `1/4 cup` packed light brown sugar
-* `2` large eggs
+* `2 large`  eggs
 * `1 tbsp` vanilla extract
 * `3 cups` plain/all-purpose flour
 * `2 tsp` cornflour

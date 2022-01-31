@@ -22,7 +22,7 @@ veggie: y
 * `1g` shaved nutmeg (jai phal) (avoids indigestion)
 * `1/2` star anise (chakri phool) (avoids indigestion)
 * `2g` black cardamoms (badi elaichi) (for flavor)
-* `2` medium dried bay leaves (tej patta)
+* `2` dried bay leaves (tej patta)
  
 ## Roasting the spices 
 

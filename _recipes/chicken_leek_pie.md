@@ -7,16 +7,16 @@ image: chicken_leek_pie.png
 --- 
 * `2 tbsp` vegetable oil
 * `1` onion, finely chopped
-* `2` medium leeks, washed, trimmed and thickly sliced
-* `750 g` chicken, cut into bite-size pieces
+* `2 medium` leeks, washed, trimmed and thickly sliced
+* `750g` chicken, cut into bite-size pieces
 * `3` smoked bacon rashers, chopped
-* `1` garlic clove, crushed
+* `1 clove` garlic, crushed
 * `1/2 tsp` thyme
 * `2` bay leaves
 * `150 ml` chicken stock, hot
 * `142 ml` cream
-* `375 g` pack ready-rolled pastry
-* `1` medium egg
+* `375g` pack ready-rolled pastry
+* `1 medium` egg
  
 > Heat the oil in a large frying pan over a medium heat.
 >

@@ -13,7 +13,7 @@ image: beef_stew_with_dumplings.jpg
 * `25g` butter
 * `750g` beef stewing steak, chopped into bite-sized pieces
 * `2 tbsp` plain flour
-* `2` garlic cloves, crushed
+* `2 cloves` garlic, crushed
 * `175g` baby onions, peeled
 * `150g` celery, cut into large chunks
 * `150g` carrots, cut into large chunks
@@ -21,7 +21,7 @@ image: beef_stew_with_dumplings.jpg
 * `200g` swede, cut into large chunks
 * `150 ml` red wine
 * `500 ml` beef stock
-* `2 `fresh bay leaves
+* `2` bay leaves
 * `3 tbsp` fresh thyme leaves
 * `3 tbsp` chopped fresh flatleaf parsley
 * Worcestershire sauce, to taste
@@ -46,7 +46,7 @@ image: beef_stew_with_dumplings.jpg
 
 * `125g or 1 cup` plain flour, plus extra for dusting
 * `1 tsp` baking powder
-* pinch salt
+* `pinch` salt
 * `60g or 1/2cup` suet
 * `approx 1/2cup` water, to make a dough 
 

@@ -14,9 +14,9 @@ spicy: y
 * `1/2 tsp` black pepper
 * `2”` cinnamon stick
 * `2` black cardamom pods
-* `2` large white onions thinly sliced
+* `2 large` white onions thinly sliced
 * `2` green chillies slit lengthwise
-* `5` garlic cloves
+* `5 cloves` garlic
 * `1in` ginger
 * `1 heaped tsp` coriander powder
 * Salt to taste

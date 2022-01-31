@@ -5,7 +5,7 @@ veggie: y
 
 --- 
 * `1 tbsp` olive oil
-* `3` cloves garlic, chopped
+* `3 cloves` garlic, chopped
 * `1/2 cup` sliced onion
 * `1/2` red cabbage, sliced thin
 * `2 cup` cooking apple sliced thin

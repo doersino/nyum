@@ -4,8 +4,8 @@ category: Soups
 veggie: y
 
 --- 
-* `300 g` carrots, peeled & chopped
-* `1` small potato, chopped
+* `300g` carrots, peeled & chopped
+* `1 small` potato, chopped
 * `1` onion, chopped
 * `1/2 tsp` ground coriander
 * `1/2 tsp` cumin

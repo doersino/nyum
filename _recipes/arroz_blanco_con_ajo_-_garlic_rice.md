@@ -8,9 +8,9 @@ veggie: y
 * Salt
 * `1/3 cup` vegetable oil
 * `4 1/2 cups` medium-grain white rice
-* `1` large white onion, diced
-* `6` garlic cloves, peeled and finely chopped
-* `3 tbsp`s fresh lime juice
+* `1 large` white onion, diced
+* `6 cloves` garlic, peeled and finely chopped
+* `3 tbsp` fresh lime juice
 * `1/2 cup` chopped parsley
  
 > Heat the broth or water in a small saucepan until steaming; stir in 2 1/4 tsps of salt if using unsalted broth, 1 1/2 tsps if using salted broth. Cover and keep warm.

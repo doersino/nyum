@@ -13,7 +13,7 @@ description: Using sweet Indonesian soy sauce - kecap manis
 * `3 tbsp` cornflour
 * `2 tbsp` rice flour
 * `1/2` onion, sliced thin
-* `2` cloves minced garlic
+* `2 cloves` minced garlic
 * `1 tsp` grated ginger
 * `3 tbsp` kecap manis (sweet Indonesian soy sauce)
 * `1 tbsp` light soy sauce

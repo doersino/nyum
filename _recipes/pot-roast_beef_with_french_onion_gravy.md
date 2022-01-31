@@ -10,7 +10,7 @@ category: Roasts
 * `200 ml` white wine
 * `600 ml` rich beef stock
 * `2` bay leaves
-* `500 g` onions
+* `500g` onions
 * a few thyme sprigs
 * `1 tsp` butter
 * `1 tsp` light brown or light muscovado sugar

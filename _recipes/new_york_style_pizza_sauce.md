@@ -10,10 +10,10 @@ veggie: y
 * `1 tbsp` unsalted butter
 * `2 medium cloves garlic, grated on microplane grater (about 2 tsp`s)
 * `1 tsp` dried oregano
-* pinch red pepper flakes
+* `pinch` red pepper flakes
 * Kosher salt
 * `2 six-inch sprigs` fresh basil with leaves attached
-* `1` medium yellow onion, peeled and split in half
+* `1 medium` yellow onion, peeled and split in half
 * `1 tsp` sugar
  
 

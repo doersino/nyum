@@ -7,7 +7,7 @@ sweet: y
 --- 
 * `250g` plain flour
 * `30g` caster sugar
-* `1tsp` dry yeast
+* `1 tsp` dry yeast
 * `2` eggs
 * `1/2` lemon, zested
 * `1 tsp` fine sea salt

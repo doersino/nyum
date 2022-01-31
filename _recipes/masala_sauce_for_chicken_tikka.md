@@ -7,16 +7,16 @@ veggie: Y
 --- 
 
 * `3 tbsp` butter or ghee
-* `1` large onion, finely chopped
+* `1 large`  onion, finely chopped
 * `1 1/2 tsp` cumin seeds
 * `1 1/2 tsp` mustard seeds
 * `1/2 tsp` powdered fenugreek
 * `1/2 tsp` powdered paprika
 * `4` cardamom pods, lightly bashed
-* `1` large piece cinnamon
+* `1 large`  piece cinnamon
 * `1 tbsp` tomato purée
 * `50g` ground almonds
-* pinch soft brown sugar
+* `pinch` soft brown sugar
 * `1 tbsp` malt vinegar
 * `680ml` passata
 * `350ml` water

@@ -13,12 +13,12 @@ image: chicken_shawarma.png
 * `800g` skinless and boneless chicken thighs
 * `1` unwaxed lemon, zest and juice
 * `4 tbsp` olive oil
-* `4` garlic cloves, finely grated or minced
-* `2` tsp smoked paprika
-* `2` tsp ground cumin
-* `1` tsp ground coriander
-* `1` tsp chilli powder
-* `1/4` tsp ground cinnamon
+* `4 cloves` garlic, finely grated or minced
+* `2 tsp` smoked paprika
+* `2 tsp` ground cumin
+* `1 tsp` ground coriander
+* `1 tsp` chilli powder
+* `1/4 tsp` ground cinnamon
 
 > Zest the lemon and squeeze the juice. Place in a small bowl
 >
@@ -73,7 +73,7 @@ image: chicken_shawarma.png
 ---
 
 * `1 cup` greek yoghurt
-* `1` clove garlic , crushed
+* `1 clove`garlic , crushed
 * `1 tsp` cumin
 * squeeze of lemon juice
 * salt and pepper
@@ -86,15 +86,16 @@ image: chicken_shawarma.png
 
 ---
 
-* assorted thinly sliced salad vegetables including
-    * tomatoes
-    * peppers
-    * lettuce (iceberg or cos)
-    * cucumber
-    * red onion
-    * olives
+* tomatoes
+* peppers
+* lettuce (iceberg or cos)
+* cucumber
+* red onion
+* olives
 * Warmed pita or flatbreads
 
+> Thinly slice the raw veg. 
+>
 > Pile chicken and salad into a warmed pita or flatbread, drizzle over garlic sauce and devour
 > 
 > Serve with rice or chips

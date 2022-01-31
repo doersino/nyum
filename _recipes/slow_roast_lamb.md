@@ -11,19 +11,19 @@ description: Beautiful marinated fall-apart lamb served with lemon, garlic and m
 
 * `2kg` lamb shoulder or leg
 * `1` shallot, halved
-* `4` garlic cloves
+* `4 cloves` garlic
 * `4` cherry tomatoes
 * `2` anchovies
-* `½ tsp` cumin seeds, toasted
-* `½ tsp` coriander seeds, toasted
-* `½ tsp` pink peppercorns
+* `1/2 tsp` cumin seeds, toasted
+* `1/2 tsp` coriander seeds, toasted
+* `1/2 tsp` pink peppercorns
 * `2 tbsp` rosemary leaves
-* `1` thyme sprig, leaves picked
-* small bunch mint leaves, chopped
+* `1 sprig` thyme, leaves picked
+* `small bunch` mint leaves, chopped
 * `70ml` white wine
 * `4 tbsp` olive oil
 * `1 tbsp` brown sugar
-* zest and juice 1 lemon
+* `1` lemon, zest and juice
 
 > Blitz all except the lamb in a food processor.
 >

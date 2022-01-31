@@ -10,10 +10,10 @@ spicy: y
 
 ---
 
-* `500g` of boneless skinless chicken breast or thigh, cut into bite-sized pieces
-* `1/2 tbsp` of rice wine
-* `pinch` of salt
-* `40g / 1/3 cup` of cornstarch to coat
+* `500g` boneless skinless chicken breast or thigh, cut into bite-sized pieces
+* `1/2 tbsp` rice wine
+* `pinch` salt
+* `40g / 1/3 cup` cornstarch to coat
 
 > Marinate the chicken meat with the rice wine and salt for 15 minutes.
 >
@@ -25,13 +25,13 @@ spicy: y
 
 ---
 
-* `2 1/2 tbsp` of rice vinegar
-* `2 1/2 tbsp` of soy sauce
-* `1/2 tbsp` of dark soy sauce
-* `1 tsp` of Hoisin sauce
-* `1/4 cup` of water
-* `1/2 tbsp` of rice wine
-* `1 tbsp` of cornstarch
+* `2 1/2 tbsp` rice vinegar
+* `2 1/2 tbsp` soy sauce
+* `1/2 tbsp` dark soy sauce
+* `1 tsp` Hoisin sauce
+* `1/4 cup` water
+* `1/2 tbsp` rice wine
+* `1 tbsp` cornstarch
 
 > Mix all the ingredients for the sauce in a small bowl. Set aside.
 
@@ -39,7 +39,7 @@ spicy: y
 
 ---
 
-* `1` clove garlic, minced
+* `1 clove` garlic, minced
 * `1 tbsp` minced ginger
 * `1 tsp` crushed red chilli
 * `2` spring onion, rough chopped to garnish

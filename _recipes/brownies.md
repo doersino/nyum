@@ -13,8 +13,8 @@ sweet: y
 * `375g` unsalted butter
 * `100g` fudge chunks
 * `225g` plain flour
-* `6` large eggs
-* pinch of salt
+* `6 large`  eggs
+* `pinch` salt
 * `1 tbsp`vanilla extract
 * `1/4 tsp` ground cinnamon
 * `1/4 tsp` ground nutmeg

@@ -13,7 +13,7 @@ veggie: y
 * `2g` sodium carbonate (instructions to make below)
 
 
-> 20g Sodium Carbonate can be made by baking 30g sodium bicarbonate (baking soda) in the oven at 150degC for 1 hour.
+> 20g Sodium Carbonate can be made by baking 30g sodium bicarbonate (baking soda) in the oven at 150C for 1 hour.
 >
 > Sift flour into a bowl and make a well in the centre. 
 >

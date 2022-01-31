@@ -17,9 +17,9 @@ veggie: y
 * `1/4 to 3/4 cup` honey (see note below)
 * `1 tsp` hot sauce
 * `1 cup` dark brown sugar (you can use light brown sugar if that's all you have)
-* `3 tbsp`s vegetable oil
-* `1` medium onion, finely chopped
-* `4` medium cloves of garlic, crushed or minced
+* `3 tbsp` vegetable oil
+* `1 medium` onion, finely chopped
+* `4 cloves` garlic, crushed or minced
 
 > In a small bowl, mix the American chili powder, black pepper, and salt.
 >

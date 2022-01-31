@@ -23,7 +23,7 @@ size: Makes 10
 * `150g` unsalted butter
 * `300g` plain flour
 * Large pinch of fine salt
-* `1` medium egg. lightly beaten
+* `1 medium` egg. lightly beaten
 * `3 to 5 tbsp` water
 
 > Melt the butter and leave it to cool slightly. Put the flour into a large bowl and mix in the salt. Pour in the butter and egg. Start mixing, adding the water as you go, until you have a soft dough. Turn out onto your work surface and knead gently for a couple of minutes, until smooth. Return the dough to its bowl, cover and set aside to rest while you prepare the filling.
@@ -33,8 +33,8 @@ size: Makes 10
 ---
 
 * `1 tbsp` olive oil
-* `1` medium onion, finely chopped
-* `1` garlic clove, crushed
+* `1 medium` onion, finely chopped
+* `1 clove` garlic, crushed
 * `100g` cured chorizo sausage (ready-to-eat), finely diced
 * `1/2 tsp` cumin seeds
 * `50g` raisins

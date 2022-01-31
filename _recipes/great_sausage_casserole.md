@@ -7,10 +7,10 @@ description: Warning winter casserole. Best served with mashed potato
 * `1 –2 tbsp` sunflower oil
 * `12` good quality pork sausages
 * `6` rashers rindless streaky bacon, cut into 2.5cm/1in lengths
-* `2` medium onions, thinly sliced
-* `2` garlic cloves, crushed
+* `2 medium` onions, thinly sliced
+* `2 cloves` garlic, crushed
 * `1/2 –1 tsp` hot chilli powder or smoked paprika
-* `1` can chopped tomatoes
+* `1 can` chopped tomatoes
 * `300ml` oz chicken stock
 * `2 tbsp` tomato purée
 * `1 tbsp` Worcestershire sauce
@@ -19,7 +19,7 @@ description: Warning winter casserole. Best served with mashed potato
 * `2` bay leaves
 * `3 – 4` sprigs of fresh thyme
 * `100ml` red or white wine (optional)
-* `1` can butter beans or mixed beans
+* `1 can` butter beans or mixed beans
 * salt and freshly ground black pepper
  
 > Heat a tbsp of the oil in a large non-stick frying pan and fry the sausages gently for 10 minutes, turning every now and then until nicely browned all over. Transfer to a large saucepan or a flameproof casserole dish and set aside.

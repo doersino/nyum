@@ -11,7 +11,7 @@ description: Polish dumpling for cold winter nights
 
 * `2 1/4 cups` all purpose flour, plus extra for dusting
 * `1 tsp` salt
-* `1` large egg, beaten
+* `1 large`  egg, beaten
 * `1 cup` sour cream
 * `55g` butter, softened
 
@@ -27,7 +27,7 @@ description: Polish dumpling for cold winter nights
 
 * `5` red potatoes, skinned and boiled
 * `500g` bacon
-* `1` large onion, chopped
+* `1 large`  onion, chopped
 * `1 cup` cheddar cheese, shredded
 * Salt and pepper, to taste
 

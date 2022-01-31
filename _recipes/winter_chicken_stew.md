@@ -6,11 +6,11 @@ description: Simple, quick and hearty
 --- 
 * `1 tbsp` sunflower oil
 * `1` onion, chopped
-* `4` garlic clove, sliced
+* `4 cloves` garlic, sliced
 * `1.4 l` hot chicken stock
-* `1` large potato
+* `1 large` potato
 * `1 tbsp` fresh thyme leaf
-* `850 g` family packs skinless chicken thighs
+* `850g` family packs skinless chicken thighs
 * `6` carrots, halved lengthways and cut into chunks
 * `2` parsnips, halved lengthways and cut into chunks
 * `3` leeks, well washed and thickly sliced

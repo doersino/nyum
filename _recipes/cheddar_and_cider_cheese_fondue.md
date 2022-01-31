@@ -6,11 +6,11 @@ veggie: Y
 
 --- 
 
-* `1` clove garlic, peeled and cut in half
+* `1 clove` garlic, peeled and cut in half
 * `200 ml` dry cider
 * `350g` mature Cheddar cheese, finely grated
 * `1 tbsp` cornflour
-* Pinch of dry mustard powder
+* `pinch` dry mustard powder
 * `2 tbsp` brandy or sherry
 * `1 tsp` Worcester sauce
 * Salt and freshly ground black pepper

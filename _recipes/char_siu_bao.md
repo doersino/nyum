@@ -20,7 +20,7 @@ size: Makes 12
 * `1/4 tsp` salt
 * `2 tbsp` vegetable oil
 * `1` spring onion, cut into lengths
-* `1/2` small onion, diced small
+* `1/2 small` onion, diced small
 * `1/3 cup` water 
 * `3 tbsp` cornflour
 * `1/4 cup` water to make slurry

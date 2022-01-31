@@ -8,11 +8,11 @@ favorite: Y
 --- 
 
 * `1.5 kg` topside of beef
-* `2` medium onions
+* `2 medium` onions
 * `2` carrots
-* `2` sticks celery
-* `1` bulb of garlic
-* `1` bunch of mixed fresh herbs , such as thyme, rosemary, bay, sage
+* `2 sticks` celery
+* `1 bulb` garlic
+* `1 bunch` mixed fresh herbs , such as thyme, rosemary, bay, sage
 * olive oil
  
 > Remove the beef from the fridge 30 minutes before you want to cook it, to let it come up to room temperature.

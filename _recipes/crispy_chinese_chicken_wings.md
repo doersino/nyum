@@ -7,11 +7,11 @@ image: crispy_chinese_chicken_wings.jpg
 --- 
 
 * `1 kg` chicken wings
-* `4` cloves garlic, chopped
+* `4 cloves` garlic, chopped
 * `1 tsp` ground ginger
 * `1 tsp` ground black pepper
-* `pinch` of salt
-* `splash` of oil
+* `pinch` salt
+* `splash` oil
 * `1 to 2 tbsp` cornflour
 * `1 cup` hoisin sauce
 

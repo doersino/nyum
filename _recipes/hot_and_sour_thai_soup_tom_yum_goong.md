@@ -10,14 +10,14 @@ spicy: y
 * `4` kaffir lime leaves
 * `1"` piece fresh galangal or ginger, sliced
 * `2` red chiles, sliced
-* `2 tbsp`s fish sauce, such as nam pla
-* `1 1/2 tsp`s sugar
+* `2 tbsp` fish sauce, such as nam pla
+* `1 1/2 tsp` sugar
 * `1 can` straw mushrooms, rinsed and halved
-* `500g` large shrimp, peeled
+* `500g large`  shrimp, peeled
 * `250g` cooked chicken diced (optional)
 * `2` limes, juiced
 * `2` spring onions, sliced
-* `1` handful fresh coriander, chopped
+* `1 handful` fresh coriander, chopped
 
 > Bring the stock to the boil over medium heat in a saucepan.
 >

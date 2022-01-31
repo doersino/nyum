@@ -60,13 +60,13 @@ veggie: Y
 
 > Brush with egg wash
 >
-> Bake at 160degC fan or 180degC for 30 mins or til golden brown.
+> Bake at 160C fan or 180C for 30 mins or til golden brown.
 
 ## Garlic Butter (optional) 
 
 ---
 
-* `1-2` cloves garlic
+* `1-2 cloves` garlic
 * `1/4 cup (56g)` unsalted butter
 
 > Optional

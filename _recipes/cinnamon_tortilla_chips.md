@@ -5,7 +5,7 @@ veggie: Y
 sweet: y 
 
 --- 
-* `1` package soft flour tortillas
+* `1 pack` soft flour tortillas
 * `2 tbsp` vegetable oil
 * `1 tsp` cinnamon
 * `1/2 cup` caster sugar

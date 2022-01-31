@@ -4,10 +4,10 @@ category: Soups
 description: The Soup from r/cooking
 
 --- 
-* `1` medium yellow onion, diced
+* `1 medium` yellow onion, diced
 * `1/3 cup` all purpose flour
 * `1 tbsp` dried basil
-* `2` cloves of garlic, minced
+* `2 cloves` garlic, minced
 * `2 tbsp` tomato paste
 * `3 tbsp` olive oil
 * `4 cup` chicken broth

@@ -40,7 +40,7 @@ image: potstickers.png
 ---
 
 * `750g` ground pork (15% fat)
-* `3` cloves garlic, minced
+* `3 cloves` garlic, minced
 * `2in` ginger, minced
 * `1/2 tsp` salt
 * `1/2 tsp` sugar

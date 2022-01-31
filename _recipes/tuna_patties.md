@@ -6,7 +6,7 @@ size: Makes 6-8
 image: tuna_patties.png
 
 --- 
-* `3` cans tuna
+* `3 cans` tuna
 * `2` eggs
 * `1/4 cup` breadcrumbs
 * `3 tbsp` mayo

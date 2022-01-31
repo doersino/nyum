@@ -15,7 +15,7 @@ veggie: Y
 * `200ml` white wine
 * `2 tsp` cornflour
 * `3 tbsp` kirsch
-* `1` clove garlic (peeled)
+* `1 clove` garlic (peeled)
 * good grinding of pepper
 * good grating of nutmeg
 

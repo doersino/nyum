@@ -12,7 +12,7 @@ image: moqueca.jpg
 
 * `500-750g` firm white fish - Halibut, Black Cod, Sea Bass (thicker cuts are best)
 * `1/2 tsp` salt
-* `1` lime- zest and juice
+* `1` lime, zest and juice
 
 > Rinse and pat dry the fish and cut into 2 inch pieces. Place in a bowl. Add salt, zest from half the lime and 1 tablespoon lime juice. Massage lightly to coat all pieces well. Set aside.
 
@@ -26,14 +26,14 @@ image: moqueca.jpg
 * `1/2 tsp` salt
 * `1 cup` carrot, diced
 * `1` red bell pepper, diced
-* `4` garlic cloves, rough chopped
+* `4 cloves` garlic, rough chopped
 * `1/2` jalapeno, finely diced
 * `1 tbsp` tomato paste
 * `2 tsp` paprika
 * `1 tsp` cumin
 * `1 cup` fish or chicken stock
 * `1 1/2 cups` tomatoes, diced (preferably fresh)
-* `1` can coconut milk (liquid and solids)
+* `1 can` coconut milk (liquid and solids)
 * salt to taste
 * `1/2 cup` chopped cilantro, scallions or Italian parsley
 * A squeeze of lime

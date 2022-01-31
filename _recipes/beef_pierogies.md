@@ -9,9 +9,9 @@ description: Polish dumpling
 
 ---
 
-* `1` large egg
+* `1 large` egg
 * `1/4 cup` sour cream
-* `1/4 cup plus 2 tbsp`s water
+* `1/4 cup plus 2 tbsp` water
 * `2 tsp` olive oil
 * `1/2 tsp` kosher salt
 * `2 cups` all-purpose flour
@@ -25,18 +25,18 @@ description: Polish dumpling
 ---
 
 * `2 tbsp` unsalted butter
-* `1` small yellow onion, quartered and thinly sliced
+* `1 small` yellow onion, quartered and thinly sliced
 * Kosher salt and freshly ground black pepper
 * `1 tsp` granulated sugar
 * `1 tsp` sherry vinegar or red wine vinegar
-* `1` medium carrot, peeled and finely diced
+* `1 medium` carrot, peeled and finely diced
 * `1 tsp` chopped fresh thyme leaves
-* `1` large garlic clove, minced
+* `1 large clove` garlic, minced
 * `500g` ground beef, preferably organic
-* `1` large egg, beaten with 
+* `1 large` egg, beaten with 
 * `1 tsp` water
-* `2 tbsp`s unsalted butter (1/4 stick
-* `2 tbsp`s olive oil
+* `2 tbsp` unsalted butter (1/4 stick
+* `2 tbsp` olive oil
  
 > In a large frying pan over medium-high heat, melt the butter. Add the onion, 1 tsp salt, and the sugar and cook until caramelized and brown, about 10 minutes. Add the vinegar and stir to coat. Add the carrot, thyme, and garlic and cook until tender, about 5 minutes.
 >

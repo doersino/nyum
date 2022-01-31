@@ -7,13 +7,13 @@ description: Classic Turkish kebab to make at home
 * `250g` 20% fat lamb mince
 * `250g` 20% fat beef mince
 * `1.5 tsp` chilli powder
-* `2` garlic cloves, crushed
+* `2 cloves` garlic, crushed
 * `1 tsp` white pepper
 * `1 tsp` ground cumin
 * `1 tsp` ground coriander
 * `1 tsp` oregano
 * `1 tsp` salt
-* Pitta breads
+* Pita breads
 * Salad (shredded cabbage, shredded lettuce, sliced red onion, sliced tomato)
 * Yogurt & mint sauce
  

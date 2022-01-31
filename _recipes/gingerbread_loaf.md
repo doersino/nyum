@@ -16,7 +16,7 @@ veggie: y
 * `2 tbsp` ground cinnamon 
 * `2 tbsp` ground ginger
 * `1/4 tsp` finely-ground black pepper
-* `1/2 tsp` of any of ground mace, ground cloves, ground coriander seed, ground nutmeg etc, optional
+* `1/2 tsp` any of ground mace, ground cloves, ground coriander seed, ground nutmeg etc, optional
  
 > Heat oven to 350ºF/180ºC. 
 >

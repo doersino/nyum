@@ -5,7 +5,7 @@ category: Sides
 --- 
 * `1` onion, sliced
 * `15g` butter
-* `1/2` small Bramley apple, peeled, cored and diced
+* `1/2 small`  Bramley apple, peeled, cored and diced
 * `500g` sausagemeat
 * handful sage leaves, chopped, plus extra for topping
 * `100g` granary breadcrumbs
@@ -17,4 +17,4 @@ category: Sides
 >
 > or
 >
-> Roll into balls and brush with melted butter. Roast for 25 mins at 180degC.
+> Roll into balls and brush with melted butter. Roast for 25 mins at 180C.

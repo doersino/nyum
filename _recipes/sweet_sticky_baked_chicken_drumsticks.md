@@ -7,12 +7,12 @@ category: Roasts
 * `1/4 cup` honey
 * `1/4 cup` light brown sugar, packed
 * `2 tbsp` low-sodium soy sauce
-* `3` garlic cloves, minced
+* `3 cloves` garlic, minced
 * `1 tbsp` minced fresh ginger
 * `1/2 tsp` fresh cracked black pepper
 * `6` chicken drumsticks, about 750g
 * `1 tbsp` sesame seeds, lightly toasted
-* a few pinches chopped fresh parsley
+* `2 tsp` chopped fresh parsley
  
 > In a medium bowl, whisk together balsamic vinegar, honey, brown sugar, soy sauce, garlic, ginger and cracked black pepper. Pour into a large ziplock bag and add chicken drumsticks. Shake to coat chicken and refrigerate for 8 hours, or overnight, giving the bag a shake whenever you think about it.
 >

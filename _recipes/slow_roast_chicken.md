@@ -9,10 +9,10 @@ favorite: Y
 * `1.6kg` chicken
 * `3-4` carrots in large chunks
 * `1` onion, cut in large chunks
-* `6-8` garlic cloves, smashed
+* `6-8 cloves` garlic, smashed
 * `100ml` white wine
 * `100ml` chicken stock
-* `2` stems rosemary, broken into sprigs
+* `2 stems` rosemary, broken into sprigs
 * `6` bay leaves
 * `1` lemon, cut into wedges
  

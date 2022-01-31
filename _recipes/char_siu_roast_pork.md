@@ -33,9 +33,9 @@ image: charsiupork.jpg
 * `3 tbsp (44ml)` marinade
 * `3 tbsp (44ml)` honey
 
-> Roast the meat on a rack over a tray at 220degC/200fan for 20 mins
+> Roast the meat on a rack over a tray at 220C/200fan for 20 mins
 >
-> Flip and roast for further 20 mins or until internal temp of 70degC
+> Flip and roast for further 20 mins or until internal temp of 70C
 >
 > Baste with reserved marinade mixed with 3tbsps honey
 >

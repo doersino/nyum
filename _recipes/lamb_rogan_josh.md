@@ -10,21 +10,21 @@ spicy: y
 --- 
 
 * `3"` piece fresh ginger, peeled and grated
-* `8` cloves garlic, chopped
+* `8 cloves` garlic, chopped
 * `1 tsp` turmeric
-* `4 tbsp`s natural yoghurt
+* `4 tbsp` natural yoghurt
 * `1 tsp` crushed black peppercorns
 * `1kg` quality lamb shoulder, cut into big cubes
-* `5` medium-sized red onions, halved
+* `5 medium` red onions, halved
 * `2` red peppers, halved and deseeded
 * `2` fresh red chillies, deseeded
 * `1 tbsp` green cardamom pods
 * `4` whole cloves
 * `1 stick` cinnamon
-* `2 tbsp`s coriander seeds
+* `2 tbsp` coriander seeds
 * `1 tsp` dried red chilli flakes
 * `1 splash` vegetable oil
-* `2 tsp`s paprika
+* `2 tsp` paprika
 * `600g` tinned chopped tomatoes
 * `1/2 tbsp` salt
 

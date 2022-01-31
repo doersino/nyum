@@ -9,9 +9,9 @@ category: Salads
 ---
 
 * `500g` chicken breast cut into strips
-* Juice of 1 lemon
+* `1` lemon, juice only
 * `1 tsp` oregano
-* `3` cloves minced garlic
+* `3 cloves` minced garlic
 * Good grind of black pepper
 
 > Marinate the chicken in the other ingredients for 10 mins

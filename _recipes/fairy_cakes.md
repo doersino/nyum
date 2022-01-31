@@ -10,7 +10,7 @@ sweet: y
 * `100g` caster sugar
 * `100g` very soft butter
 * `100g` self-raising flour
-* `2`eggs
+* `2` eggs
 * `1 tsp` vanilla extract
  
 > turn the oven on to 180C/160C fan/gas 4. Put a paper case in each bun hole.

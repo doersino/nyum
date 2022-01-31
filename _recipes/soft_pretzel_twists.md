@@ -15,7 +15,7 @@ veggie: Y
 * Vegetable oil
 * `10 cups` water
 * `2/3 cup` baking soda
-* `1` large egg yolk beaten with 1 tbsp water
+* `1 large`  egg yolk beaten with 1 tbsp water
  
 > In the bowl of a stand mixer, combine the water, sugar and kosher salt. Sprinkle the yeast on top and allow it to sit for 5 minutes or until it begins to foam.
 >

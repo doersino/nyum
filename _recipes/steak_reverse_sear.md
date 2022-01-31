@@ -13,11 +13,11 @@ category: European
 * `2 tbsp` olive oil
 * large knob of butter
 
-> Preheat oven to 150degC/130degC fan.
+> Preheat oven to 150C/130C fan.
 >
 > Place the steaks on a rack over a rimmed baking sheet and season well on both sides with salt & pepper.
 >
-> Roast the steaks until the internal temp reaches 48degC.
+> Roast the steaks until the internal temp reaches 48C.
 >
 > Remove and wrap in foil to rest.
 >
@@ -39,7 +39,7 @@ category: European
 * `60ml` red wine
 * `250ml` beef stock
 * `2 tsp` cracked black pepper
-* large knob of butter
+* `large knob` butter
 * `1 tbsp` cornflour mixed with 1 tbsp cold water (optional)
  
 > Add a little more oil to the pan if needed and fry the shallot of onion until just browning. 

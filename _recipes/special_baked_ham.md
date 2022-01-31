@@ -14,8 +14,8 @@ favorite: Y
 * `4-6kg` green ham joint
 * `2` oranges thickly sliced
 * `2` lemons, thickly sliced
-* `1` stick celery, roughly chopped
-* `3` sprigs thyme
+* `1 stick` celery, roughly chopped
+* `3 sprigs` thyme
 * `4` bay leaves
 * `5` cloves
 * `1 tbsp` vinegar
@@ -53,7 +53,7 @@ favorite: Y
 >
 > Pour over half the glaze and then fold foil sides up and pinch together at sides and top, being careful that the foil doesn't touch the ham too much.
 >
-> Bake, covered, at 200 degC, gas 6 for 10 mins per lb/450g plus 20 mins.
+> Bake, covered, at 200 C, gas 6 for 10 mins per lb/450g plus 20 mins.
 >
 > Baste regularly.
 >

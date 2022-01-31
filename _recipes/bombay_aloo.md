@@ -9,7 +9,7 @@ spicy: y
 
 * `3 cups` potatoes chopped into 1cm cubes
 * `3 tbsp` oil
-* `2` cloves garlic, chopped
+* `2 cloves` garlic, chopped
 * `1 1/2 tsp` salt
 * `1 tsp` sugar
 * `1 tsp` cumin seeds

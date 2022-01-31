@@ -72,7 +72,7 @@ or
 >
 > Toss the chicken to coat. 
 >
-> Fry in 5cm deep 180degC hot oil till light golden brown.
+> Fry in 5cm deep 180C hot oil till light golden brown.
 >
-> Bake in the oven for 10 mins at 220degC until internal temp is 65degC
+> Bake in the oven for 10 mins at 220C until internal temp is 65C
 

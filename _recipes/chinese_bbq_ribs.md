@@ -4,7 +4,7 @@ category: Asian
 description: Easy one dish oven baked ribs
 
 --- 
-* `4` garlic cloves
+* `4 cloves` garlic
 * Large knob of ginger
 * `30` spare ribs
 * `4 tbsp` tomato ketchup

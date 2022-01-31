@@ -11,8 +11,8 @@ veggie: Y
 * `500g` bread flour or all purpose flour or 35g wheat gluten and 465g of plain flour
 * `5g` yeast
 * `15g` salt
-* `350g` hand hot (not boiling - max 40degC) water
-* about 2 Tablespoons extra flour for shaping
+* `350g` hand hot (not boiling - max 40C) water
+* about 2 tbsp extra flour for shaping
 
 >>> To scale up the ratio is: 100 parts flour, 1.5 parts salt, 1 part instant yeast, and 70 parts water.
 
@@ -24,7 +24,7 @@ veggie: Y
 >
 > Place in a parchment paper-lined bowl (not wax paper) and cover with a towel. Let stand on counter top for about 35 minutes.
 >
-> Meantime place Dutch oven with lid in a cold oven and preheat to 220degC
+> Meantime place Dutch oven with lid in a cold oven and preheat to 220C
 >
 > When oven reaches temp carefully, using oven gloves, lift the parchment paper and dough from the bowl and place gently into the hot pot. (parchment paper goes in the pot too) Cover and bake for 30 minutes.
 >

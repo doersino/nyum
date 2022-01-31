@@ -7,7 +7,7 @@ image: chinese_battered_chicken_for_sweet_and_sour.jpg
 
 ---
 
-* `2` large chicken breasts
+* `2 large`  chicken breasts
 * `1/2 tsp` salt
 * `1/2 tsp` sugar
 * `1/2 tsp` white pepper
@@ -27,6 +27,6 @@ image: chinese_battered_chicken_for_sweet_and_sour.jpg
 >
 > Add 4 tbsps of cornflour to the chicken and toss til coated
 >
-> Fry in 5cm of medium hot oil 180degC until light brown, about 5 mins.
+> Fry in 5cm of medium hot oil 180C until light brown, about 5 mins.
 >
 > Drain on kitchen paper and then use in whatever dish
