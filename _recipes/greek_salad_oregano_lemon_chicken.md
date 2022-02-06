@@ -1,6 +1,7 @@
 ---
 title: Greek Salad & Oregano Lemon chicken 
 category: Salads
+image: greek_salad_oregano_lemon_chicken.jpg
 
 --- 
 
