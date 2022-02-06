@@ -1,6 +1,7 @@
 ---
 title: Onion Bhaji 
 category: Fritters & Dumplings
+image: onion_bhaji.png
 veggie: Y
 spicy: y
 
