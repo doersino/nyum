@@ -32,7 +32,7 @@ strings:
 # page, referring you to the corresponding Markdown file on GitHub. If you've
 # got some sort of continous integration (like the included GitHub Action) set
 # up, this effectively turns your site into a wiki.
-github_url: https://github.com/doersino/nyum
+github_url: https://github.com/nessaarruda/v_arruda_amp_sovrn_test
 
 # Remote for deployment – the value of this setting will be passed to rsync as a
 # destination, so you probably want it to look like USER@SERVER:PATH. Make sure
