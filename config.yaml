@@ -1,10 +1,7 @@
 # Text shown on the index page.
-index_title: I Can't Believe It's Not a Cookbook!
+index_title: Now I'm hungry!
 index_description:
-  Po-tay-toes. Boil 'em, mash 'em, stick 'em in a stew. Lovely big golden chips
-  with a nice piece of fried fish. Even you couldn't say no to that. My mom
-  always said life was like a box of chocolates. *You never know what you're
-  gonna get.*
+  Test website for Sovrn
 
 # Whether to show each recipe's image, if available, on the index page. To
 # enable, set this option to any non-empty value (other than "false" in recent
