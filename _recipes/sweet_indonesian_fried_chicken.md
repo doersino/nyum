@@ -7,6 +7,8 @@ description: Using sweet Indonesian soy sauce - kecap manis
 
 ## For the chicken
 
+---
+
 * `500g` chicken breast cut in 1-2in chunks
 * `2 tbsp` rice wine or shaoxing wine
 * `1 tsp` grated ginger
