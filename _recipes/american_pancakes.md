@@ -8,7 +8,7 @@ sweet: y
 --- 
 * `1 1/2 cups` all-purpose flour
 * `3 tsp` baking powder
-* `1/2 tsp` salt
+* `1/4 tsp` salt
 * `2 tbsp` caster sugar
 * `1 1/4 cups` milk
 * `1 tsp` vanilla extract
