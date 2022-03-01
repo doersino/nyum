@@ -8,6 +8,7 @@ category: Notes
 
 --- 
 
+|               |             |              |
 |---------------|-------------|--------------|
 | Beef and Veal | Rare        | 50°C (122°F) |
 | Beef and Veal | Medium rare | 55°C (131°F) |
@@ -28,6 +29,7 @@ category: Notes
 
 ---
 
+|                          |           |
 |--------------------------|-----------|
 | Sponge cake              | 95-98 °C  |
 | Fruit cake               | 98-100 °C |
@@ -42,6 +44,7 @@ category: Notes
 
 ---
 
+|                                |              |            |
 |--------------------------------|--------------|------------|
 | Syrup                          | Thread       | 110-112 °C |
 | Fondants, Fudge & Pralines     | Soft Ball    | 112-116 °C |
