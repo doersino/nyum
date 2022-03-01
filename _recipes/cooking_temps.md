@@ -4,11 +4,7 @@ category: Notes
 
 ---
 
-## Meat
-
---- 
-
-|               |             |              |
+| Meat          |             |              |
 |---------------|-------------|--------------|
 | Beef and Veal | Rare        | 50°C (122°F) |
 | Beef and Veal | Medium rare | 55°C (131°F) |
@@ -25,11 +21,9 @@ category: Notes
 | Poultry       | Legs        | 75°C (167°F) |
 | Poultry       | Breast      | 65°C (149°F) |
 
-## Baking
-
 ---
 
-|                          |           |
+| Baking                   |           |
 |--------------------------|-----------|
 | Sponge cake              | 95-98 °C  |
 | Fruit cake               | 98-100 °C |
@@ -40,11 +34,9 @@ category: Notes
 | Yeast (Water Temp)       | 41-46 °C  |
 | Jam (Setting Point)      |  105 °C   |
 
-## Confectionery Temperatures
-
 ---
 
-|                                |              |            |
+| Confectionery                  |              |            |
 |--------------------------------|--------------|------------|
 | Syrup                          | Thread       | 110-112 °C |
 | Fondants, Fudge & Pralines     | Soft Ball    | 112-116 °C |
