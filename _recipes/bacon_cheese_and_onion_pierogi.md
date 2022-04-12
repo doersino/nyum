@@ -2,6 +2,7 @@
 title: Bacon, Cheese and Onion Pierogi 
 category: Fritters & Dumplings
 description: Polish dumpling for cold winter nights
+image: cheese_bacon_pierogis.jpg
 
 --- 
 
