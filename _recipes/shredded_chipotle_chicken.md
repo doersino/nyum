@@ -12,7 +12,7 @@ description: Slow cooked shredded chicken for tacos or burritos
 * 4 garlic cloves, crushed
 * 2 tsp ground cumin
 * 2 tsp sweet smoked paprika
-* 2 tbsp chipotle paste (see Know-how)
+* 2 tbsp chipotle paste
 * 1 tbsp good-quality cocoa powder
 * 2 x 400g tins chopped tomatoes
 * 300ml chicken stock
@@ -32,6 +32,8 @@ description: Slow cooked shredded chicken for tacos or burritos
 > Return the chicken and any juices to the casserole, stir to coat, then add the chopped tomatoes and stock. 
 > 
 > Bring to a simmer, season with salt and pepper, then cover and cook in the oven for 1½ hours.
+> 
+> Remove the chicken, shred and return to the pot. 
 > 
 > Add the beans to the stew and cook, uncovered, for 30 minutes more until the sauce has reduced and thickened.
 > 
