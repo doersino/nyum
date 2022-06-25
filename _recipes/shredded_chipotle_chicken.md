@@ -17,8 +17,7 @@ description: Slow cooked shredded chicken for tacos or burritos
 * 2 x 400g tins chopped tomatoes
 * 300ml chicken stock
 * 400g tin black beans or kidney beans, rinsed and drained
-* Warm tortillas, soured cream, coriander leaves and lime
-wedges to serve as tacos
+* Warm tortillas, soured cream, coriander leaves and lime wedges to serve as tacos
 
 ---
 
