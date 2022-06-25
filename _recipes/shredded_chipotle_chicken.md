@@ -1,7 +1,8 @@
 ---
-title: Shredded Chipotle Chicken
+title: Shredded Chipotle Chicken Tinga
 category: Mexican
 description: Slow cooked shredded chicken for tacos or burritos
+image: chipotle_chicken.jpg
 
 ---
 
