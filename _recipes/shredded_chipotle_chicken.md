@@ -5,21 +5,19 @@ description: Slow cooked shredded chicken for tacos or burritos
 
 ---
 
-* 4 tbsp extra-virgin olive oil
-* 8 skinless, boneless free-range chicken thighs (about 1.4kg), halved
-* 2 red onions, cut into wedges
-* 2 red peppers, sliced
-* 4 garlic cloves, crushed
-* 2 tsp ground cumin
-* 2 tsp sweet smoked paprika
-* 2 tbsp chipotle paste
-* 1 tbsp good-quality cocoa powder
-* 2 x 400g tins chopped tomatoes
-* 300ml chicken stock
-* 400g tin black beans or kidney beans, rinsed and drained
+* `4 tbsp` extra-virgin olive oil
+* `8` skinless, boneless free-range chicken thighs (about 1.4kg), halved
+* `2` red onions, cut into wedges
+* `2` red peppers, sliced
+* `4 cloves` garlic, crushed
+* `2 tsp` ground cumin
+* `2 tsp` sweet smoked paprika
+* `2 tbsp` chipotle paste
+* `1 tbsp` good-quality cocoa powder
+* `2 x 400g` tins chopped tomatoes
+* `300ml` chicken stock
+* `400g` tin black beans or kidney beans, rinsed and drained
 * Warm tortillas, soured cream, coriander leaves and lime wedges to serve as tacos
-
----
 
 > Heat the oven to 170°C/150°C fan/gas 3½.
 > 
