@@ -2,6 +2,7 @@
 title: Carnitas - Slow Cooker 
 category: Mexican
 description: Slow cooker version of classic Mexican pork carnitas
+image: carnitas.jpg
 favorite: Y
 --- 
 
