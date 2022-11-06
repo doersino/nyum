@@ -49,7 +49,7 @@ status "Deploying..."
 FLAGS="--verbose"
 $QUIET && FLAGS="--quiet"
 $DRYRUN && FLAGS="$FLAGS --dry-run"
-x rsync -a --delete "$FLAGS" "_site/" "$REMOTE"
+x rsync -a --delete $FLAGS "_site/" "$REMOTE"
 
 EMOJI="🍇🍈🍉🍊🍋🍌🍍🥭🍎🍏🍐🍑🍒🍓🥝🍅🥥🥑🍆🥔🥕🌽🌶️🥒🥬🥦"
 status "Success!" "${EMOJI:RANDOM%${#EMOJI}:1}"
