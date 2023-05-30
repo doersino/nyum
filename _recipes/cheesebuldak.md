@@ -20,7 +20,8 @@ favorite: ✓
 * `2-3 tbsp` rice or corn syrup
 * `2 tbsp` water
 
-> Mix in an oven-proof saucepan or cast-iron skillet – you should end up with a thick marinade.
+> Mix in an oven-proof saucepan or cast-iron skillet.
+> You should end up with a thick marinade.
 
 ---
 
