@@ -8,7 +8,7 @@ waitingtime: 22 hours
 vegan: ✓
 author: Lutz Geißler (Plötzblog)
 source: https://www.ploetzblog.de/2021/04/24/san-francisco-sourdough-bread/
-favourite: ✓
+favorite: ✓
 ---
 
 * `30 g` all-purpose flour
