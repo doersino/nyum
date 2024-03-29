@@ -22,6 +22,9 @@
                 $if(time)$
                 <li><img src="assets/tabler-icons/tabler-icon-clock.svg"> $time$</li>
                 $endif$
+                $if(waitingtime)$
+                <li><img src="assets/tabler-icons/tabler-icon-clock-pause.svg"> $waitingtime$</li>
+                $endif$
                 $if(author)$
                     <li>
                         $if(source)$
