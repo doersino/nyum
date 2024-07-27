@@ -211,7 +211,7 @@ Building the search "index" works similarly, but without the need for any groupi
 
 ### Since this static site generator is based around a Bash script and Bash is a terrible language as far as robust string manipulation is concerned, are there any pitfalls with regard to filenames and such?
 
-Why, there are indeed! I'm 100% sure these could be remedied quite easily, but they don't interfere with my use case, so I didn't bother. If you run into any problems because of this, please [file an issue](https://github.com/doersino/nyum/issues) or cancel me on Twitter.
+Why, there are indeed! I'm 100% sure these could be remedied quite easily, but they don't interfere with my use case, so I didn't bother. If you run into any problems because of this, please [file an issue](https://github.com/doersino/nyum/issues).
 
 * No spaces in filenames. Your computer might explode.
 * You can't have a recipe with filename `index.md` – it'll be overwritten by the generated index page.
@@ -263,5 +263,5 @@ However, the subdirectories `_assets/fonts/` and `_assets/tabler-icons` contain 
 Finally, some **shoutouts** that aren't *really* licensing-related, but fit better here than anywhere else in this document:
 
 * The device mockups used to spice up the screenshots in this document are from [Facebook Design](https://design.facebook.com/toolsandresources/devices/).
-* Because you're dying to know this, let me tell you that the screenshots' background image is based on a [Google Maps screenshot of a lithium mining operation in China](https://twitter.com/doersino/status/1324367617763676160).
+* Because you're dying to know this, let me tell you that the screenshots' background image is based on a [Google Maps screenshot of a rare earth mining operation in China](https://www.google.com/maps/@40.4448594,90.8008231,21196m/data=!3m1!1e3).
 * I've designed the logo using a previous project of mine, the [Markdeep Diagram Drafting Board](https://doersino.github.io/markdeep-diagram-drafting-board/).
