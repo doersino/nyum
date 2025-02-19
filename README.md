@@ -13,9 +13,9 @@ Below the screenshots, you'll find some notes on [setting this tool up](#setup),
 
 ## Screenshots
 
-If you prefer a live website over the following screenshots, feel free to **check out the [demo on GitHub Pages](https://doersino.github.io/nyum/_site/index.html)**!
+If you prefer a live website over the following screenshots, feel free to **check out the [demo on GitHub Pages](https://ghpages.noahdoersing.com/nyum/_site/index.html)**!
 
-On an old-fashioned computer, a [recipe](https://doersino.github.io/nyum/_site/cheesebuldak.html) might look more or less like this – notice the little star indicating that this is a favorite!
+On an old-fashioned computer, a [recipe](https://ghpages.noahdoersing.com/nyum/_site/cheesebuldak.html) might look more or less like this – notice the little star indicating that this is a favorite!
 
 ![](_assets/readme-images/1-laptop.jpg)
 
@@ -264,4 +264,4 @@ Finally, some **shoutouts** that aren't *really* licensing-related, but fit bett
 
 * The device mockups used to spice up the screenshots in this document are from [Facebook Design](https://design.facebook.com/toolsandresources/devices/).
 * Because you're dying to know this, let me tell you that the screenshots' background image is based on a [Google Maps screenshot of a rare earth mining operation in China](https://www.google.com/maps/@40.4448594,90.8008231,21196m/data=!3m1!1e3).
-* I've designed the logo using a previous project of mine, the [Markdeep Diagram Drafting Board](https://doersino.github.io/markdeep-diagram-drafting-board/).
+* I've designed the logo using a previous project of mine, the [Markdeep Diagram Drafting Board](https://ghpages.noahdoersing.com/markdeep-diagram-drafting-board/).
