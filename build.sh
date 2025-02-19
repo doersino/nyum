@@ -87,7 +87,7 @@ IFS=$'\n'           # tell for loop logic to split on newlines only, not spaces
 CATS="$(cat _temp/*.category.txt)"
 for CATEGORY in $(echo "$CATS" | cut -d" " -f2- | sort | uniq); do
     printf '%s' "$SEPARATOR_OUTER" >> _temp/index.json
-    CATEGORY_FAUX_URLENCODED="$(echo "$CATEGORY" | awk -f "_templates/technical/faux_urlencode.awk")"
+    CATEGORY_FAUX_URLENCODED="$(echo "$CATEGORY" | iconv -f UTF-8 -t ascii//TRANSLIT | awk -f "_templates/technical/faux_urlencode.awk")"
 
     # some explanation on the next line and similar ones: this uses `tee -a`
     # instead of `>>` to append to two files instead of one, but since we don't
@@ -111,7 +111,7 @@ echo "]}" >> _temp/index.json
 
 status "Building recipe pages..."
 for FILE in _recipes/*.md; do
-    CATEGORY_FAUX_URLENCODED="$(cat "_temp/$(basename "$FILE" .md).category.txt" | cut -d" " -f2- | awk -f "_templates/technical/faux_urlencode.awk")"
+    CATEGORY_FAUX_URLENCODED="$(cat "_temp/$(basename "$FILE" .md).category.txt" | cut -d" " -f2- | iconv -f UTF-8 -t ascii//TRANSLIT | awk -f "_templates/technical/faux_urlencode.awk")"
 
     # when running under GitHub Actions, all file modification dates are set to
     # the date of the checkout (i.e., the date on which the workflow was
