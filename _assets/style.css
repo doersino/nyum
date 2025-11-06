@@ -459,6 +459,11 @@ footer .updatededit a {
         max-width: 50%;
         max-height: 20em;
     }
+    .recipe hr::after {
+        color: var(--foreground);
+        background-color: none;
+        border: 0.1em solid var(--foreground);
+    }
     .search {
         display: none;
     }
